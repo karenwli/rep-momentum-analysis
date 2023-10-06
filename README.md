@@ -4,19 +4,12 @@ Comprehensive overview of work on the memory momentum project
 ## Memory Momentum Project: A guide to this zip file
 
 ### File Structure
--	Norming
--	Results of norming study, also previous linguistic stimuli we discussed
--	Experiment 1 (SONA)
--	Results of Exp1 as run on SONA, also experiment code and R analysis files
--	Experiment 1 (Prolific)
--	Results of Exp2 as run on Prolific, also experiment code and R analysis files
--	Experiment 2
--	Results of Exp2 as run on Prolific, also experiment code and R analysis files
--	Literature and writeup
--	Some slides from update meetings, also a more comprehensive writeup. 
--	Stimuli
--	A list of stimuli, as well as the original images and videos
--	A python script to resize the images and make them into videos, frame rate is 5 frames/sec in these stimuli.
+-	Norming- Results of norming study, also previous linguistic stimuli we discussed
+-	Experiment 1 (SONA)- Results of Exp1 as run on SONA, also experiment code and R analysis files
+-	Experiment 1 (Prolific)- Results of Exp2 as run on Prolific, also experiment code and R analysis files
+-	Experiment 2- Results of Exp2 as run on Prolific, also experiment code and R analysis files
+-	Literature and writeup- Some slides from update meetings, also a more comprehensive writeup. 
+-	Stimuli- A list of stimuli, the original images and videos, and a python script to resize the images and make them into videos.
 
 ### State of the project:
 	There is a proven effect, representational momentum, that even without linguistic input, people will mentally progress an telic event past the cutoff point that they have actually seen. This project attempts to study the effect of linguistic input (in the form of goals) on how a person stores events in their memory. Will a more ambitious goal push their memory state further towards completion, or will a more conservative goal further encourage mental completion of the event?

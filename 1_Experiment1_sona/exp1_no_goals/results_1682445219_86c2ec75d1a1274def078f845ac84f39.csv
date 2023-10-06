@@ -1,0 +1,251 @@
+#
+# Results on Tuesday April 25 2023 17:53:39 UTC
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+# Design number was non-random = 7
+#
+# Columns below this comment are as follows:
+# 1. Results reception time.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Order number of item.
+# 5. Inner element number.
+# 6. Label.
+# 7. Latin Square Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. sonaID.
+# 14. Comments.
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,2,0,consent,NULL,PennController,0,_Trial_,Start,1682444928489,sonaID,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,2,0,consent,NULL,PennController,0,_Header_,Start,1682444928489,sonaID,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,2,0,consent,NULL,PennController,0,_Header_,End,1682444928489,sonaID,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,2,0,consent,NULL,PennController,0,_Trial_,End,1682444931045,sonaID,NULL
+# Columns below this comment are as follows:
+# 14. ID.
+# 15. Comments.
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,3,0,intro,NULL,PennController,1,_Trial_,Start,1682444931046,sonaID,undefined,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,3,0,intro,NULL,PennController,1,_Header_,Start,1682444931046,sonaID,undefined,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,3,0,intro,NULL,PennController,1,_Header_,End,1682444931046,sonaID,undefined,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,3,0,intro,NULL,TextInput,inputID,EnterReturn,45740545,1682444934968,sonaID,undefined,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,3,0,intro,NULL,TextInput,inputID,Final,45740545,1682444934985,sonaID,undefined,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,3,0,intro,NULL,TextInput,inputID,First,,1682444932919,sonaID,undefined,4
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,3,0,intro,NULL,PennController,1,_Trial_,End,1682444934985,sonaID,undefined,NULL
+# Columns below this comment are as follows:
+# 15. item_number.
+# 16. item.
+# 17. type.
+# 18. Group.
+# 19. prog.
+# 20. prev_image.
+# 21. next_image.
+# 22. height.
+# 23. memory-nogoals.
+# 24. Comments.
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,21,0,experiment,NULL,PennController,20,_Trial_,Start,1682444934988,sonaID,undefined,18,ball,critical,B,25,ball15.jpg,ball35.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,21,0,experiment,NULL,PennController,20,_Header_,Start,1682444934988,sonaID,undefined,18,ball,critical,B,25,ball15.jpg,ball35.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,21,0,experiment,NULL,PennController,20,_Header_,End,1682444934988,sonaID,undefined,18,ball,critical,B,25,ball15.jpg,ball35.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,21,0,experiment,NULL,Canvas,canvas6,Print,NA,1682444939714,sonaID,undefined,18,ball,critical,B,25,ball15.jpg,ball35.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,21,0,experiment,NULL,Video,progression,buffer,0.00384,1682444937538,sonaID,undefined,18,ball,critical,B,25,ball15.jpg,ball35.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,21,0,experiment,NULL,Selector,choice,Selection,option2,1682444944721,sonaID,undefined,18,ball,critical,B,25,ball15.jpg,ball35.jpg,high,memory-nogoals,option1;option2
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,21,0,experiment,NULL,PennController,20,_Trial_,End,1682444944723,sonaID,undefined,18,ball,critical,B,25,ball15.jpg,ball35.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,16,0,experiment,NULL,PennController,15,_Trial_,Start,1682444944726,sonaID,undefined,13,mix,critical,B,50,mix40.jpg,mix60.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,16,0,experiment,NULL,PennController,15,_Header_,Start,1682444944726,sonaID,undefined,13,mix,critical,B,50,mix40.jpg,mix60.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,16,0,experiment,NULL,PennController,15,_Header_,End,1682444944727,sonaID,undefined,13,mix,critical,B,50,mix40.jpg,mix60.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,16,0,experiment,NULL,Canvas,canvas6,Print,NA,1682444950414,sonaID,undefined,13,mix,critical,B,50,mix40.jpg,mix60.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,16,0,experiment,NULL,Video,progression,buffer,0.006295,1682444947247,sonaID,undefined,13,mix,critical,B,50,mix40.jpg,mix60.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,16,0,experiment,NULL,Selector,choice,Selection,option1,1682444951677,sonaID,undefined,13,mix,critical,B,50,mix40.jpg,mix60.jpg,low ,memory-nogoals,option2;option1
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,16,0,experiment,NULL,PennController,15,_Trial_,End,1682444951679,sonaID,undefined,13,mix,critical,B,50,mix40.jpg,mix60.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,20,0,experiment,NULL,PennController,19,_Trial_,Start,1682444951681,sonaID,undefined,17,roll,critical,B,75,roll65.jpg,roll85.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,20,0,experiment,NULL,PennController,19,_Header_,Start,1682444951681,sonaID,undefined,17,roll,critical,B,75,roll65.jpg,roll85.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,20,0,experiment,NULL,PennController,19,_Header_,End,1682444951681,sonaID,undefined,17,roll,critical,B,75,roll65.jpg,roll85.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,20,0,experiment,NULL,Canvas,canvas6,Print,NA,1682444958377,sonaID,undefined,17,roll,critical,B,75,roll65.jpg,roll85.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,20,0,experiment,NULL,Video,progression,buffer,0.00432,1682444954209,sonaID,undefined,17,roll,critical,B,75,roll65.jpg,roll85.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,20,0,experiment,NULL,Selector,choice,Selection,option2,1682444960778,sonaID,undefined,17,roll,critical,B,75,roll65.jpg,roll85.jpg,low ,memory-nogoals,option1;option2
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,20,0,experiment,NULL,PennController,19,_Trial_,End,1682444960780,sonaID,undefined,17,roll,critical,B,75,roll65.jpg,roll85.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,25,0,experiment,NULL,PennController,24,_Trial_,Start,1682444960782,sonaID,undefined,22,wall,filler,B,50,wall40.jpg,wall60.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,25,0,experiment,NULL,PennController,24,_Header_,Start,1682444960782,sonaID,undefined,22,wall,filler,B,50,wall40.jpg,wall60.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,25,0,experiment,NULL,PennController,24,_Header_,End,1682444960782,sonaID,undefined,22,wall,filler,B,50,wall40.jpg,wall60.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,25,0,experiment,NULL,Canvas,canvas6,Print,NA,1682444966463,sonaID,undefined,22,wall,filler,B,50,wall40.jpg,wall60.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,25,0,experiment,NULL,Video,progression,buffer,0.002742,1682444963299,sonaID,undefined,22,wall,filler,B,50,wall40.jpg,wall60.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,25,0,experiment,NULL,Selector,choice,Selection,option2,1682444968178,sonaID,undefined,22,wall,filler,B,50,wall40.jpg,wall60.jpg,GoalA,memory-nogoals,option2;option1
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,25,0,experiment,NULL,PennController,24,_Trial_,End,1682444968180,sonaID,undefined,22,wall,filler,B,50,wall40.jpg,wall60.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,9,0,experiment,NULL,PennController,8,_Trial_,Start,1682444968181,sonaID,undefined,6,flower,critical,B,25,flower15.jpg,flower35.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,9,0,experiment,NULL,PennController,8,_Header_,Start,1682444968181,sonaID,undefined,6,flower,critical,B,25,flower15.jpg,flower35.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,9,0,experiment,NULL,PennController,8,_Header_,End,1682444968181,sonaID,undefined,6,flower,critical,B,25,flower15.jpg,flower35.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,9,0,experiment,NULL,Canvas,canvas6,Print,NA,1682444972876,sonaID,undefined,6,flower,critical,B,25,flower15.jpg,flower35.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,9,0,experiment,NULL,Video,progression,buffer,0.002875,1682444970701,sonaID,undefined,6,flower,critical,B,25,flower15.jpg,flower35.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,9,0,experiment,NULL,Selector,choice,Selection,option2,1682444974214,sonaID,undefined,6,flower,critical,B,25,flower15.jpg,flower35.jpg,high,memory-nogoals,option2;option1
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,9,0,experiment,NULL,PennController,8,_Trial_,End,1682444974215,sonaID,undefined,6,flower,critical,B,25,flower15.jpg,flower35.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,11,0,experiment,NULL,PennController,10,_Trial_,Start,1682444974216,sonaID,undefined,8,cucumber,critical,B,75,cucumber66.jpg,cucumber84.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,11,0,experiment,NULL,PennController,10,_Header_,Start,1682444974216,sonaID,undefined,8,cucumber,critical,B,75,cucumber66.jpg,cucumber84.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,11,0,experiment,NULL,PennController,10,_Header_,End,1682444974216,sonaID,undefined,8,cucumber,critical,B,75,cucumber66.jpg,cucumber84.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,11,0,experiment,NULL,Canvas,canvas6,Print,NA,1682444982938,sonaID,undefined,8,cucumber,critical,B,75,cucumber66.jpg,cucumber84.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,11,0,experiment,NULL,Video,progression,buffer,0.00484,1682444976755,sonaID,undefined,8,cucumber,critical,B,75,cucumber66.jpg,cucumber84.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,11,0,experiment,NULL,Selector,choice,Selection,option1,1682444985535,sonaID,undefined,8,cucumber,critical,B,75,cucumber66.jpg,cucumber84.jpg,high,memory-nogoals,option1;option2
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,11,0,experiment,NULL,PennController,10,_Trial_,End,1682444985536,sonaID,undefined,8,cucumber,critical,B,75,cucumber66.jpg,cucumber84.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,4,0,experiment,NULL,PennController,3,_Trial_,Start,1682444985538,sonaID,undefined,1,vase,critical,B,50,vase40.jpg,vase60.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,4,0,experiment,NULL,PennController,3,_Header_,Start,1682444985538,sonaID,undefined,1,vase,critical,B,50,vase40.jpg,vase60.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,4,0,experiment,NULL,PennController,3,_Header_,End,1682444985538,sonaID,undefined,1,vase,critical,B,50,vase40.jpg,vase60.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,4,0,experiment,NULL,Canvas,canvas6,Print,NA,1682444991231,sonaID,undefined,1,vase,critical,B,50,vase40.jpg,vase60.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,4,0,experiment,NULL,Video,progression,buffer,0.003007,1682444988056,sonaID,undefined,1,vase,critical,B,50,vase40.jpg,vase60.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,4,0,experiment,NULL,Selector,choice,Selection,option2,1682444992164,sonaID,undefined,1,vase,critical,B,50,vase40.jpg,vase60.jpg,low ,memory-nogoals,option2;option1
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,4,0,experiment,NULL,PennController,3,_Trial_,End,1682444992166,sonaID,undefined,1,vase,critical,B,50,vase40.jpg,vase60.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,13,0,experiment,NULL,PennController,12,_Trial_,Start,1682444992167,sonaID,undefined,10,train,critical,B,50,train40.jpg,train60.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,13,0,experiment,NULL,PennController,12,_Header_,Start,1682444992167,sonaID,undefined,10,train,critical,B,50,train40.jpg,train60.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,13,0,experiment,NULL,PennController,12,_Header_,End,1682444992167,sonaID,undefined,10,train,critical,B,50,train40.jpg,train60.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,13,0,experiment,NULL,Canvas,canvas6,Print,NA,1682444997859,sonaID,undefined,10,train,critical,B,50,train40.jpg,train60.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,13,0,experiment,NULL,Video,progression,buffer,0.002833,1682444994686,sonaID,undefined,10,train,critical,B,50,train40.jpg,train60.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,13,0,experiment,NULL,Selector,choice,Selection,option2,1682444999138,sonaID,undefined,10,train,critical,B,50,train40.jpg,train60.jpg,high,memory-nogoals,option1;option2
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,13,0,experiment,NULL,PennController,12,_Trial_,End,1682444999139,sonaID,undefined,10,train,critical,B,50,train40.jpg,train60.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,12,0,experiment,NULL,PennController,11,_Trial_,Start,1682444999140,sonaID,undefined,9,cake,critical,B,25,cake15.jpg,cake33.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,12,0,experiment,NULL,PennController,11,_Header_,Start,1682444999140,sonaID,undefined,9,cake,critical,B,25,cake15.jpg,cake33.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,12,0,experiment,NULL,PennController,11,_Header_,End,1682444999140,sonaID,undefined,9,cake,critical,B,25,cake15.jpg,cake33.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,12,0,experiment,NULL,Canvas,canvas6,Print,NA,1682445004447,sonaID,undefined,9,cake,critical,B,25,cake15.jpg,cake33.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,12,0,experiment,NULL,Video,progression,buffer,0.001685,1682445001667,sonaID,undefined,9,cake,critical,B,25,cake15.jpg,cake33.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,12,0,experiment,NULL,Selector,choice,Selection,option1,1682445005831,sonaID,undefined,9,cake,critical,B,25,cake15.jpg,cake33.jpg,low ,memory-nogoals,option1;option2
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,12,0,experiment,NULL,PennController,11,_Trial_,End,1682445005832,sonaID,undefined,9,cake,critical,B,25,cake15.jpg,cake33.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,19,0,experiment,NULL,PennController,18,_Trial_,Start,1682445005835,sonaID,undefined,16,blinds,critical,B,50,blinds42.jpg,blinds60.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,19,0,experiment,NULL,PennController,18,_Header_,Start,1682445005835,sonaID,undefined,16,blinds,critical,B,50,blinds42.jpg,blinds60.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,19,0,experiment,NULL,PennController,18,_Header_,End,1682445005835,sonaID,undefined,16,blinds,critical,B,50,blinds42.jpg,blinds60.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,19,0,experiment,NULL,Canvas,canvas6,Print,NA,1682445012928,sonaID,undefined,16,blinds,critical,B,50,blinds42.jpg,blinds60.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,19,0,experiment,NULL,Video,progression,buffer,0.004062,1682445008360,sonaID,undefined,16,blinds,critical,B,50,blinds42.jpg,blinds60.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,19,0,experiment,NULL,Selector,choice,Selection,option1,1682445013719,sonaID,undefined,16,blinds,critical,B,50,blinds42.jpg,blinds60.jpg,high,memory-nogoals,option2;option1
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,19,0,experiment,NULL,PennController,18,_Trial_,End,1682445013720,sonaID,undefined,16,blinds,critical,B,50,blinds42.jpg,blinds60.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,17,0,experiment,NULL,PennController,16,_Trial_,Start,1682445013722,sonaID,undefined,14,cover,critical,B,75,cover66.jpg,cover84.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,17,0,experiment,NULL,PennController,16,_Header_,Start,1682445013722,sonaID,undefined,14,cover,critical,B,75,cover66.jpg,cover84.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,17,0,experiment,NULL,PennController,16,_Header_,End,1682445013722,sonaID,undefined,14,cover,critical,B,75,cover66.jpg,cover84.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,17,0,experiment,NULL,Canvas,canvas6,Print,NA,1682445022412,sonaID,undefined,14,cover,critical,B,75,cover66.jpg,cover84.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,17,0,experiment,NULL,Video,progression,buffer,0.003197,1682445016240,sonaID,undefined,14,cover,critical,B,75,cover66.jpg,cover84.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,17,0,experiment,NULL,Selector,choice,Selection,option2,1682445023359,sonaID,undefined,14,cover,critical,B,75,cover66.jpg,cover84.jpg,high,memory-nogoals,option2;option1
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,17,0,experiment,NULL,PennController,16,_Trial_,End,1682445023361,sonaID,undefined,14,cover,critical,B,75,cover66.jpg,cover84.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,26,0,experiment,NULL,PennController,25,_Trial_,Start,1682445023362,sonaID,undefined,23,color,filler,B,75,color65.jpg,color85.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,26,0,experiment,NULL,PennController,25,_Header_,Start,1682445023362,sonaID,undefined,23,color,filler,B,75,color65.jpg,color85.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,26,0,experiment,NULL,PennController,25,_Header_,End,1682445023362,sonaID,undefined,23,color,filler,B,75,color65.jpg,color85.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,26,0,experiment,NULL,Canvas,canvas6,Print,NA,1682445030050,sonaID,undefined,23,color,filler,B,75,color65.jpg,color85.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,26,0,experiment,NULL,Video,progression,buffer,0.001983,1682445025880,sonaID,undefined,23,color,filler,B,75,color65.jpg,color85.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,26,0,experiment,NULL,Selector,choice,Selection,option2,1682445030908,sonaID,undefined,23,color,filler,B,75,color65.jpg,color85.jpg,GoalB,memory-nogoals,option1;option2
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,26,0,experiment,NULL,PennController,25,_Trial_,End,1682445030910,sonaID,undefined,23,color,filler,B,75,color65.jpg,color85.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,28,0,experiment,NULL,PennController,27,_Trial_,Start,1682445030912,sonaID,undefined,25,house,filler,B,50,house40.jpg,house60.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,28,0,experiment,NULL,PennController,27,_Header_,Start,1682445030912,sonaID,undefined,25,house,filler,B,50,house40.jpg,house60.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,28,0,experiment,NULL,PennController,27,_Header_,End,1682445030912,sonaID,undefined,25,house,filler,B,50,house40.jpg,house60.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,28,0,experiment,NULL,Canvas,canvas6,Print,NA,1682445036600,sonaID,undefined,25,house,filler,B,50,house40.jpg,house60.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,28,0,experiment,NULL,Video,progression,buffer,0.002201,1682445033428,sonaID,undefined,25,house,filler,B,50,house40.jpg,house60.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,28,0,experiment,NULL,Selector,choice,Selection,option1,1682445037250,sonaID,undefined,25,house,filler,B,50,house40.jpg,house60.jpg,GoalB,memory-nogoals,option1;option2
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,28,0,experiment,NULL,PennController,27,_Trial_,End,1682445037252,sonaID,undefined,25,house,filler,B,50,house40.jpg,house60.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,27,0,experiment,NULL,PennController,26,_Trial_,Start,1682445037253,sonaID,undefined,24,match,filler,B,25,match15.jpg,match35.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,27,0,experiment,NULL,PennController,26,_Header_,Start,1682445037253,sonaID,undefined,24,match,filler,B,25,match15.jpg,match35.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,27,0,experiment,NULL,PennController,26,_Header_,End,1682445037253,sonaID,undefined,24,match,filler,B,25,match15.jpg,match35.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,27,0,experiment,NULL,Canvas,canvas6,Print,NA,1682445041947,sonaID,undefined,24,match,filler,B,25,match15.jpg,match35.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,27,0,experiment,NULL,Video,progression,buffer,0.00354,1682445039771,sonaID,undefined,24,match,filler,B,25,match15.jpg,match35.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,27,0,experiment,NULL,Selector,choice,Selection,option2,1682445042966,sonaID,undefined,24,match,filler,B,25,match15.jpg,match35.jpg,GoalA,memory-nogoals,option2;option1
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,27,0,experiment,NULL,PennController,26,_Trial_,End,1682445042968,sonaID,undefined,24,match,filler,B,25,match15.jpg,match35.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,8,0,experiment,NULL,PennController,7,_Trial_,Start,1682445042970,sonaID,undefined,5,book,critical,B,75,book65.jpg,book85.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,8,0,experiment,NULL,PennController,7,_Header_,Start,1682445042970,sonaID,undefined,5,book,critical,B,75,book65.jpg,book85.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,8,0,experiment,NULL,PennController,7,_Header_,End,1682445042970,sonaID,undefined,5,book,critical,B,75,book65.jpg,book85.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,8,0,experiment,NULL,Canvas,canvas6,Print,NA,1682445049660,sonaID,undefined,5,book,critical,B,75,book65.jpg,book85.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,8,0,experiment,NULL,Video,progression,buffer,0.003236,1682445045487,sonaID,undefined,5,book,critical,B,75,book65.jpg,book85.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,8,0,experiment,NULL,Selector,choice,Selection,option1,1682445050944,sonaID,undefined,5,book,critical,B,75,book65.jpg,book85.jpg,low ,memory-nogoals,option1;option2
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,8,0,experiment,NULL,PennController,7,_Trial_,End,1682445050946,sonaID,undefined,5,book,critical,B,75,book65.jpg,book85.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,29,0,experiment,NULL,PennController,28,_Trial_,Start,1682445050947,sonaID,undefined,26,sandwich,filler,B,75,sandwich65.jpg,sandwich85.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,29,0,experiment,NULL,PennController,28,_Header_,Start,1682445050947,sonaID,undefined,26,sandwich,filler,B,75,sandwich65.jpg,sandwich85.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,29,0,experiment,NULL,PennController,28,_Header_,End,1682445050947,sonaID,undefined,26,sandwich,filler,B,75,sandwich65.jpg,sandwich85.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,29,0,experiment,NULL,Canvas,canvas6,Print,NA,1682445057628,sonaID,undefined,26,sandwich,filler,B,75,sandwich65.jpg,sandwich85.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,29,0,experiment,NULL,Video,progression,buffer,0.002321,1682445053464,sonaID,undefined,26,sandwich,filler,B,75,sandwich65.jpg,sandwich85.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,29,0,experiment,NULL,Selector,choice,Selection,option2,1682445058896,sonaID,undefined,26,sandwich,filler,B,75,sandwich65.jpg,sandwich85.jpg,GoalA,memory-nogoals,option2;option1
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,29,0,experiment,NULL,PennController,28,_Trial_,End,1682445058897,sonaID,undefined,26,sandwich,filler,B,75,sandwich65.jpg,sandwich85.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,7,0,experiment,NULL,PennController,6,_Trial_,Start,1682445058899,sonaID,undefined,4,candy,critical,B,50,candy40.jpg,candy60.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,7,0,experiment,NULL,PennController,6,_Header_,Start,1682445058899,sonaID,undefined,4,candy,critical,B,50,candy40.jpg,candy60.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,7,0,experiment,NULL,PennController,6,_Header_,End,1682445058899,sonaID,undefined,4,candy,critical,B,50,candy40.jpg,candy60.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,7,0,experiment,NULL,Canvas,canvas6,Print,NA,1682445064582,sonaID,undefined,4,candy,critical,B,50,candy40.jpg,candy60.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,7,0,experiment,NULL,Video,progression,buffer,0.00178,1682445061415,sonaID,undefined,4,candy,critical,B,50,candy40.jpg,candy60.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,7,0,experiment,NULL,Selector,choice,Selection,option1,1682445065536,sonaID,undefined,4,candy,critical,B,50,candy40.jpg,candy60.jpg,high,memory-nogoals,option1;option2
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,7,0,experiment,NULL,PennController,6,_Trial_,End,1682445065537,sonaID,undefined,4,candy,critical,B,50,candy40.jpg,candy60.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,15,0,experiment,NULL,PennController,14,_Trial_,Start,1682445065540,sonaID,undefined,12,erase,critical,B,25,erase15.jpg,erase33.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,15,0,experiment,NULL,PennController,14,_Header_,Start,1682445065540,sonaID,undefined,12,erase,critical,B,25,erase15.jpg,erase33.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,15,0,experiment,NULL,PennController,14,_Header_,End,1682445065540,sonaID,undefined,12,erase,critical,B,25,erase15.jpg,erase33.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,15,0,experiment,NULL,Canvas,canvas6,Print,NA,1682445070831,sonaID,undefined,12,erase,critical,B,25,erase15.jpg,erase33.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,15,0,experiment,NULL,Video,progression,buffer,0.002486,1682445068058,sonaID,undefined,12,erase,critical,B,25,erase15.jpg,erase33.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,15,0,experiment,NULL,Selector,choice,Selection,option1,1682445073255,sonaID,undefined,12,erase,critical,B,25,erase15.jpg,erase33.jpg,high,memory-nogoals,option1;option2
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,15,0,experiment,NULL,PennController,14,_Trial_,End,1682445073257,sonaID,undefined,12,erase,critical,B,25,erase15.jpg,erase33.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,18,0,experiment,NULL,PennController,17,_Trial_,Start,1682445073260,sonaID,undefined,15,zip,critical,B,25,zip15.jpg,zip35.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,18,0,experiment,NULL,PennController,17,_Header_,Start,1682445073260,sonaID,undefined,15,zip,critical,B,25,zip15.jpg,zip35.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,18,0,experiment,NULL,PennController,17,_Header_,End,1682445073260,sonaID,undefined,15,zip,critical,B,25,zip15.jpg,zip35.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,18,0,experiment,NULL,Canvas,canvas6,Print,NA,1682445077945,sonaID,undefined,15,zip,critical,B,25,zip15.jpg,zip35.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,18,0,experiment,NULL,Video,progression,buffer,0.003136,1682445075778,sonaID,undefined,15,zip,critical,B,25,zip15.jpg,zip35.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,18,0,experiment,NULL,Selector,choice,Selection,option2,1682445078739,sonaID,undefined,15,zip,critical,B,25,zip15.jpg,zip35.jpg,low ,memory-nogoals,option1;option2
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,18,0,experiment,NULL,PennController,17,_Trial_,End,1682445078740,sonaID,undefined,15,zip,critical,B,25,zip15.jpg,zip35.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,14,0,experiment,NULL,PennController,13,_Trial_,Start,1682445078742,sonaID,undefined,11,beads,critical,B,75,beads65.jpg,beads85.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,14,0,experiment,NULL,PennController,13,_Header_,Start,1682445078742,sonaID,undefined,11,beads,critical,B,75,beads65.jpg,beads85.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,14,0,experiment,NULL,PennController,13,_Header_,End,1682445078742,sonaID,undefined,11,beads,critical,B,75,beads65.jpg,beads85.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,14,0,experiment,NULL,Canvas,canvas6,Print,NA,1682445085430,sonaID,undefined,11,beads,critical,B,75,beads65.jpg,beads85.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,14,0,experiment,NULL,Video,progression,buffer,0.003475,1682445081264,sonaID,undefined,11,beads,critical,B,75,beads65.jpg,beads85.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,14,0,experiment,NULL,Selector,choice,Selection,option2,1682445086005,sonaID,undefined,11,beads,critical,B,75,beads65.jpg,beads85.jpg,low ,memory-nogoals,option2;option1
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,14,0,experiment,NULL,PennController,13,_Trial_,End,1682445086006,sonaID,undefined,11,beads,critical,B,75,beads65.jpg,beads85.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,31,0,experiment,NULL,PennController,30,_Trial_,Start,1682445086007,sonaID,undefined,28,sort,filler,B,50,sort40.jpg,sort60.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,31,0,experiment,NULL,PennController,30,_Header_,Start,1682445086007,sonaID,undefined,28,sort,filler,B,50,sort40.jpg,sort60.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,31,0,experiment,NULL,PennController,30,_Header_,End,1682445086007,sonaID,undefined,28,sort,filler,B,50,sort40.jpg,sort60.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,31,0,experiment,NULL,Canvas,canvas6,Print,NA,1682445091695,sonaID,undefined,28,sort,filler,B,50,sort40.jpg,sort60.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,31,0,experiment,NULL,Video,progression,buffer,0.00307,1682445088525,sonaID,undefined,28,sort,filler,B,50,sort40.jpg,sort60.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,31,0,experiment,NULL,Selector,choice,Selection,option1,1682445092962,sonaID,undefined,28,sort,filler,B,50,sort40.jpg,sort60.jpg,GoalA,memory-nogoals,option2;option1
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,31,0,experiment,NULL,PennController,30,_Trial_,End,1682445092966,sonaID,undefined,28,sort,filler,B,50,sort40.jpg,sort60.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,22,0,experiment,NULL,PennController,21,_Trial_,Start,1682445092968,sonaID,undefined,19,cup,filler,B,50,cup40.jpg,cup60.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,22,0,experiment,NULL,PennController,21,_Header_,Start,1682445092968,sonaID,undefined,19,cup,filler,B,50,cup40.jpg,cup60.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,22,0,experiment,NULL,PennController,21,_Header_,End,1682445092968,sonaID,undefined,19,cup,filler,B,50,cup40.jpg,cup60.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,22,0,experiment,NULL,Canvas,canvas6,Print,NA,1682445098665,sonaID,undefined,19,cup,filler,B,50,cup40.jpg,cup60.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,22,0,experiment,NULL,Video,progression,buffer,0.003023,1682445095488,sonaID,undefined,19,cup,filler,B,50,cup40.jpg,cup60.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,22,0,experiment,NULL,Selector,choice,Selection,option2,1682445103580,sonaID,undefined,19,cup,filler,B,50,cup40.jpg,cup60.jpg,GoalB,memory-nogoals,option1;option2
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,22,0,experiment,NULL,PennController,21,_Trial_,End,1682445103582,sonaID,undefined,19,cup,filler,B,50,cup40.jpg,cup60.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,5,0,experiment,NULL,PennController,4,_Trial_,Start,1682445103584,sonaID,undefined,2,door,critical,B,75,door65.jpg,door85.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,5,0,experiment,NULL,PennController,4,_Header_,Start,1682445103584,sonaID,undefined,2,door,critical,B,75,door65.jpg,door85.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,5,0,experiment,NULL,PennController,4,_Header_,End,1682445103584,sonaID,undefined,2,door,critical,B,75,door65.jpg,door85.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,5,0,experiment,NULL,Canvas,canvas6,Print,NA,1682445110278,sonaID,undefined,2,door,critical,B,75,door65.jpg,door85.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,5,0,experiment,NULL,Video,progression,buffer,0.003641,1682445106107,sonaID,undefined,2,door,critical,B,75,door65.jpg,door85.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,5,0,experiment,NULL,Selector,choice,Selection,option2,1682445115685,sonaID,undefined,2,door,critical,B,75,door65.jpg,door85.jpg,high,memory-nogoals,option1;option2
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,5,0,experiment,NULL,PennController,4,_Trial_,End,1682445115687,sonaID,undefined,2,door,critical,B,75,door65.jpg,door85.jpg,high,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,10,0,experiment,NULL,PennController,9,_Trial_,Start,1682445115688,sonaID,undefined,7,stack,critical,B,50,stack40.jpg,stack60.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,10,0,experiment,NULL,PennController,9,_Header_,Start,1682445115688,sonaID,undefined,7,stack,critical,B,50,stack40.jpg,stack60.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,10,0,experiment,NULL,PennController,9,_Header_,End,1682445115688,sonaID,undefined,7,stack,critical,B,50,stack40.jpg,stack60.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,10,0,experiment,NULL,Canvas,canvas6,Print,NA,1682445121382,sonaID,undefined,7,stack,critical,B,50,stack40.jpg,stack60.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,10,0,experiment,NULL,Video,progression,buffer,0.00116,1682445118203,sonaID,undefined,7,stack,critical,B,50,stack40.jpg,stack60.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,10,0,experiment,NULL,Selector,choice,Selection,option2,1682445124095,sonaID,undefined,7,stack,critical,B,50,stack40.jpg,stack60.jpg,low ,memory-nogoals,option1;option2
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,10,0,experiment,NULL,PennController,9,_Trial_,End,1682445124097,sonaID,undefined,7,stack,critical,B,50,stack40.jpg,stack60.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,24,0,experiment,NULL,PennController,23,_Trial_,Start,1682445124099,sonaID,undefined,21,visit,filler,B,25,visit15.jpg,visit35.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,24,0,experiment,NULL,PennController,23,_Header_,Start,1682445124099,sonaID,undefined,21,visit,filler,B,25,visit15.jpg,visit35.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,24,0,experiment,NULL,PennController,23,_Header_,End,1682445124099,sonaID,undefined,21,visit,filler,B,25,visit15.jpg,visit35.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,24,0,experiment,NULL,Canvas,canvas6,Print,NA,1682445128782,sonaID,undefined,21,visit,filler,B,25,visit15.jpg,visit35.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,24,0,experiment,NULL,Video,progression,buffer,0.001733,1682445126612,sonaID,undefined,21,visit,filler,B,25,visit15.jpg,visit35.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,24,0,experiment,NULL,Selector,choice,Selection,option2,1682445130050,sonaID,undefined,21,visit,filler,B,25,visit15.jpg,visit35.jpg,GoalB,memory-nogoals,option1;option2
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,24,0,experiment,NULL,PennController,23,_Trial_,End,1682445130052,sonaID,undefined,21,visit,filler,B,25,visit15.jpg,visit35.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,30,0,experiment,NULL,PennController,29,_PreloadFailed_,fixation.png,1682445190071,sonaID,undefined,27,rice,filler,B,25,square15.jpg,square35.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,30,0,experiment,NULL,PennController,29,_PreloadFailed_,https://raw.githubusercontent.com/karenwli/rep-momentum/main/rice/rice00.jpg,1682445190071,sonaID,undefined,27,rice,filler,B,25,square15.jpg,square35.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,30,0,experiment,NULL,PennController,29,_PreloadFailed_,https://video.wixstatic.com/video/7cb05b_7d016bdcb2fc4c0e9f9b8199c36c44b8/144p/mp4/file.mp4,1682445190071,sonaID,undefined,27,rice,filler,B,25,square15.jpg,square35.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,30,0,experiment,NULL,PennController,29,_Trial_,Start,1682445190073,sonaID,undefined,27,rice,filler,B,25,square15.jpg,square35.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,30,0,experiment,NULL,PennController,29,_Header_,Start,1682445190073,sonaID,undefined,27,rice,filler,B,25,square15.jpg,square35.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,30,0,experiment,NULL,PennController,29,_Header_,End,1682445190074,sonaID,undefined,27,rice,filler,B,25,square15.jpg,square35.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,30,0,experiment,NULL,Canvas,canvas6,Print,NA,1682445194782,sonaID,undefined,27,rice,filler,B,25,square15.jpg,square35.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,30,0,experiment,NULL,Video,progression,buffer,0.004497,1682445192607,sonaID,undefined,27,rice,filler,B,25,square15.jpg,square35.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,30,0,experiment,NULL,Selector,choice,Selection,option2,1682445197061,sonaID,undefined,27,rice,filler,B,25,square15.jpg,square35.jpg,GoalB,memory-nogoals,option1;option2
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,30,0,experiment,NULL,PennController,29,_Trial_,End,1682445197063,sonaID,undefined,27,rice,filler,B,25,square15.jpg,square35.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,23,0,experiment,NULL,PennController,22,_Trial_,Start,1682445197065,sonaID,undefined,20,cat,filler,B,75,cat65.jpg,cat85.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,23,0,experiment,NULL,PennController,22,_Header_,Start,1682445197065,sonaID,undefined,20,cat,filler,B,75,cat65.jpg,cat85.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,23,0,experiment,NULL,PennController,22,_Header_,End,1682445197065,sonaID,undefined,20,cat,filler,B,75,cat65.jpg,cat85.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,23,0,experiment,NULL,Canvas,canvas6,Print,NA,1682445203756,sonaID,undefined,20,cat,filler,B,75,cat65.jpg,cat85.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,23,0,experiment,NULL,Video,progression,buffer,0.002404,1682445199580,sonaID,undefined,20,cat,filler,B,75,cat65.jpg,cat85.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,23,0,experiment,NULL,Selector,choice,Selection,option2,1682445206866,sonaID,undefined,20,cat,filler,B,75,cat65.jpg,cat85.jpg,GoalA,memory-nogoals,option2;option1
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,23,0,experiment,NULL,PennController,22,_Trial_,End,1682445206868,sonaID,undefined,20,cat,filler,B,75,cat65.jpg,cat85.jpg,GoalA,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,6,0,experiment,NULL,PennController,5,_Trial_,Start,1682445206870,sonaID,undefined,3,clean,critical,B,25,clean15.jpg,clean35.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,6,0,experiment,NULL,PennController,5,_Header_,Start,1682445206870,sonaID,undefined,3,clean,critical,B,25,clean15.jpg,clean35.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,6,0,experiment,NULL,PennController,5,_Header_,End,1682445206870,sonaID,undefined,3,clean,critical,B,25,clean15.jpg,clean35.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,6,0,experiment,NULL,Canvas,canvas6,Print,NA,1682445211566,sonaID,undefined,3,clean,critical,B,25,clean15.jpg,clean35.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,6,0,experiment,NULL,Video,progression,buffer,0.002533,1682445209394,sonaID,undefined,3,clean,critical,B,25,clean15.jpg,clean35.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,6,0,experiment,NULL,Selector,choice,Selection,option1,1682445212487,sonaID,undefined,3,clean,critical,B,25,clean15.jpg,clean35.jpg,low ,memory-nogoals,option2;option1
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,6,0,experiment,NULL,PennController,5,_Trial_,End,1682445212489,sonaID,undefined,3,clean,critical,B,25,clean15.jpg,clean35.jpg,low ,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,32,0,experiment,NULL,PennController,31,_Trial_,Start,1682445212490,sonaID,undefined,29,frog,filler,B,75,frog65.jpg,frog85.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,32,0,experiment,NULL,PennController,31,_Header_,Start,1682445212490,sonaID,undefined,29,frog,filler,B,75,frog65.jpg,frog85.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,32,0,experiment,NULL,PennController,31,_Header_,End,1682445212490,sonaID,undefined,29,frog,filler,B,75,frog65.jpg,frog85.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,32,0,experiment,NULL,Canvas,canvas6,Print,NA,1682445219181,sonaID,undefined,29,frog,filler,B,75,frog65.jpg,frog85.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,32,0,experiment,NULL,Video,progression,buffer,0.00421,1682445215011,sonaID,undefined,29,frog,filler,B,75,frog65.jpg,frog85.jpg,GoalB,memory-nogoals,NULL
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,32,0,experiment,NULL,Selector,choice,Selection,option1,1682445219864,sonaID,undefined,29,frog,filler,B,75,frog65.jpg,frog85.jpg,GoalB,memory-nogoals,option1;option2
+1682445219,86c2ec75d1a1274def078f845ac84f39,PennController,32,0,experiment,NULL,PennController,31,_Trial_,End,1682445219867,sonaID,undefined,29,frog,filler,B,75,frog65.jpg,frog85.jpg,GoalB,memory-nogoals,NULL

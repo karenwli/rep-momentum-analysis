@@ -1,0 +1,206 @@
+---
+title: "memory_data"
+output: html_document
+date: "2023-04-30"
+---
+
+```{r setup, include=FALSE}
+
+library(plyr)
+library(tidyverse)
+library(lme4)
+library(dplyr)
+library (tidyr)
+library(lmerTest)
+library(ggplot2)
+```
+
+```{r}
+read.pcibex <- function(filepath, auto.colnames=TRUE, fun.col=function(col,cols){cols[cols==col]<-paste(col,"Ibex",sep=".");return(cols)}) {
+  n.cols <- max(count.fields(filepath,sep=",",quote=NULL),na.rm=TRUE)
+  if (auto.colnames){
+    cols <- c()
+    con <- file(filepath, "r")
+    while ( TRUE ) {
+      line <- readLines(con, n = 1, warn=FALSE)
+      if ( length(line) == 0) {
+        break
+      }
+      m <- regmatches(line,regexec("^# (\\d+)\\. (.+)\\.$",line))[[1]]
+      if (length(m) == 3) {
+        index <- as.numeric(m[2])
+        value <- m[3]
+        if (index < length(cols)){
+          cols <- c()
+        }
+        if (is.function(fun.col)){
+          cols <- fun.col(value,cols)
+        }
+        cols[index] <- value
+        if (index == n.cols){
+          break
+        }
+      }
+    }
+    close(con)
+    return(read.csv(filepath, comment.char="#", header=FALSE, col.names=cols))
+  }
+  else{
+    return(read.csv(filepath, comment.char="#", header=FALSE, col.names=seq(1:n.cols)))
+  }
+}
+
+#files <- list.files("Data", recursive=TRUE, pattern="*.csv")
+exp2_files <- dir("C:\\Users\\nancy\\Desktop\\Data\\Prolific_data\\Exp2-data", pattern = "*.csv", full.names = TRUE, recursive = TRUE)
+
+#for(i in 1:length(exp2_files)){
+#  print(length(colnames(read.pcibex(exp2_files[i]))))
+#}
+
+#exp2_files
+```
+
+
+```{r}
+exp2_data <- do.call(rbind, lapply(exp2_files, function(x) read.pcibex(x, auto.colnames=FALSE)))
+
+colnames(exp2_data) <- c("Time", "IP", "Controller", "Order", "ElementNum", "Label", "Null_Group", "PennElementType", "PennElementName", "Parameter", "Value", "EventTime", "ProlificID", "comments","item_number", "item", "ItemType", "group","prog", "condition", "goal", "exp2trials", "Comments")
+
+exp2_data
+
+```
+
+
+```{r}
+EventData <- exp2_data %>%
+  filter(Label=="experiment" & PennElementType=="VideoScrubber" & ItemType=="critical")
+
+EventData %>%
+  mutate(
+    group = case_when(
+      group == FALSE ~ "F",
+      TRUE ~ group
+    )
+    ,
+    goal = case_when(
+      goal == " low" ~ "low",
+      goal == "nogoal" ~ "none"
+      ,
+      TRUE ~ goal
+    ),
+    goal = factor(goal, levels = c("none", "low", "high")),
+    prog_fact = factor(prog, levels = c("25", "50", "75"))
+  ) ->
+  EventData
+
+EventData
+## Filter out no goals
+
+#head(EventData,30)
+
+#contrasts(EventData$goal) = cbind( c(-.5, .5))
+#contrasts(EventData$prog) = cbind(c(-.66, .33, .33), c(0,-.5, .5))
+#c(-.66, .33, .33),\\
+
+group_counts <- table(EventData$group)
+print(group_counts)
+
+height_counts <- table(EventData$goal)
+print(height_counts)
+
+#EventData %>%
+#  group_by(goal, prog) %>%
+#  summarize(Choice=mean(Value), n=length(Value), sd = sd(Value))
+```
+```{r}
+EventData$difference <- as.numeric(EventData$Value) - EventData$prog
+EventData
+```
+```{r}
+EventData %>%
+  ggplot(aes(x = goal, fill = prog_fact, y = difference))+
+  geom_jitter()
+```
+
+
+```{r}
+#EventData <- EventData %>%
+#  filter(abs(difference) < 50)
+EventData %>%
+  group_by(goal, prog_fact) %>%
+  #summarySE(EventData, measurevar=mean(Value), groupvars=c("goal", "prog")) %>%
+  summarize(diff_avg=mean(difference), n=length(difference), sd = sd(difference)/sqrt(n)) %>%
+  ggplot(aes(x = goal, fill = prog_fact, y = diff_avg, ymin=diff_avg-sd, ymax=diff_avg+sd)) +
+  geom_bar(stat = "identity", position = "dodge")+
+  geom_errorbar(width=.2, position = position_dodge(0.9)) +
+  ggtitle("Effect of goals on frame identification")+
+  xlab("Goal height")+
+  ylab("Percent completion past the true frame")
+
+```
+
+
+```{r}
+#png("test.png", width = 6, height = 4, units = "in", res = 200)
+EventData %>%
+  group_by(goal) %>%
+  #summarySE(EventData, measurevar=mean(Value), groupvars=c("goal", "prog")) %>%
+  summarize(diff_avg=mean(difference), n=length(difference), sd = sd(difference)/sqrt(n)) %>%
+  ggplot(aes(x = goal, y = diff_avg)) +
+  geom_bar(stat = "identity", position = "dodge")+
+  geom_errorbar(mapping=aes(x=goal, ymin=diff_avg-sd, ymax=diff_avg+sd), width=.2) +
+  ggtitle("Effect of goals on frame identification")+
+  xlab("Goal height")+
+  ylab("Percent completion past the true frame")
+#dev.off()
+```
+```{r}
+participant_counter <- EventData %>%
+  group_by(IP, group) %>%
+  summarize(diff_avg = mean(difference))
+
+table(participant_counter$group)
+
+
+condition_counter <- EventData %>%
+  group_by(IP, goal) %>%
+  summarize(diff_avg=mean(difference))
+
+table(condition_counter$goal)
+
+subject_spread <- condition_counter %>%
+  spread(goal, diff_avg) %>%
+  arrange(IP)
+
+subject_spread
+```
+
+
+```{r}
+low <- condition_counter$diff_avg[condition_counter$goal == "low"]
+high <- condition_counter$diff_avg[condition_counter$goal == "high"]
+none <- condition_counter$diff_avg[condition_counter$goal == "none"]
+
+t.test(high, low)
+
+t.test(high, mu = 0, alternative = "two.sided")
+t.test(low, mu = 0, alternative = "two.sided")
+t.test(none, mu = 0, alternative = "two.sided")
+```
+
+```{r}
+low_item <- EventData$difference[EventData$goal == "low"]
+high_item <- EventData$difference[EventData$goal == "high"]
+none_item <- EventData$difference[EventData$goal == "none"]
+
+t.test(high_item, low_item)
+
+t.test(high_item, mu = 0, alternative = "two.sided")
+t.test(low_item, mu = 0, alternative = "two.sided")
+t.test(none_item, mu = 0, alternative = "two.sided")
+```
+```{r}
+mod1 <- lmer(difference ~ goal + prog_fact + (1 | IP) + (1|item), EventData)
+summary(mod1)
+```
+

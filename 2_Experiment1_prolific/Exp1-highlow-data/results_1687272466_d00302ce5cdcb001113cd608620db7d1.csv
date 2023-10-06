@@ -1,0 +1,244 @@
+#
+# Results on Tuesday June 20 2023 14:47:46 UTC
+# USER AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+# Design number was non-random = 1
+#
+# Columns below this comment are as follows:
+# 1. Results reception time.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Order number of item.
+# 5. Inner element number.
+# 6. Label.
+# 7. Latin Square Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. PROLIFIC_ID.
+# 14. Comments.
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,2,0,consent,NULL,PennController,0,_Trial_,Start,1687272153709,PROLIFIC_ID,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,2,0,consent,NULL,PennController,0,_Header_,Start,1687272153709,PROLIFIC_ID,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,2,0,consent,NULL,PennController,0,_Header_,End,1687272153709,PROLIFIC_ID,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,2,0,consent,NULL,PennController,0,_Trial_,End,1687272179730,PROLIFIC_ID,NULL
+# Columns below this comment are as follows:
+# 14. ID.
+# 15. Comments.
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,3,0,intro,NULL,PennController,1,_Trial_,Start,1687272179734,PROLIFIC_ID,Olivia Maltz,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,3,0,intro,NULL,PennController,1,_Header_,Start,1687272179734,PROLIFIC_ID,Olivia Maltz,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,3,0,intro,NULL,PennController,1,_Header_,End,1687272179734,PROLIFIC_ID,Olivia Maltz,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,3,0,intro,NULL,PennController,1,_Trial_,End,1687272185972,PROLIFIC_ID,Olivia Maltz,NULL
+# Columns below this comment are as follows:
+# 15. item_number.
+# 16. item.
+# 17. type.
+# 18. Group.
+# 19. prog.
+# 20. prev_image.
+# 21. next_image.
+# 22. height.
+# 23. Comments.
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,25,0,experiment,NULL,PennController,24,_Trial_,Start,1687272185974,PROLIFIC_ID,Olivia Maltz,22,wall,filler,B,50,wall40.jpg,wall60.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,25,0,experiment,NULL,PennController,24,_Header_,Start,1687272185974,PROLIFIC_ID,Olivia Maltz,22,wall,filler,B,50,wall40.jpg,wall60.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,25,0,experiment,NULL,PennController,24,_Header_,End,1687272185974,PROLIFIC_ID,Olivia Maltz,22,wall,filler,B,50,wall40.jpg,wall60.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,25,0,experiment,NULL,Video,progression,buffer,0,1687272189543,PROLIFIC_ID,Olivia Maltz,22,wall,filler,B,50,wall40.jpg,wall60.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,25,0,experiment,NULL,Canvas,canvas6,Print,NA,1687272192791,PROLIFIC_ID,Olivia Maltz,22,wall,filler,B,50,wall40.jpg,wall60.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,25,0,experiment,NULL,Selector,choice,Selection,option2,1687272194701,PROLIFIC_ID,Olivia Maltz,22,wall,filler,B,50,wall40.jpg,wall60.jpg,GoalB,option2;option1
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,25,0,experiment,NULL,PennController,24,_Trial_,End,1687272194706,PROLIFIC_ID,Olivia Maltz,22,wall,filler,B,50,wall40.jpg,wall60.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,14,0,experiment,NULL,PennController,13,_Trial_,Start,1687272194710,PROLIFIC_ID,Olivia Maltz,11,beads,critical,B,75,beads65.jpg,beads85.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,14,0,experiment,NULL,PennController,13,_Header_,Start,1687272194710,PROLIFIC_ID,Olivia Maltz,11,beads,critical,B,75,beads65.jpg,beads85.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,14,0,experiment,NULL,PennController,13,_Header_,End,1687272194710,PROLIFIC_ID,Olivia Maltz,11,beads,critical,B,75,beads65.jpg,beads85.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,14,0,experiment,NULL,Video,progression,buffer,0,1687272198287,PROLIFIC_ID,Olivia Maltz,11,beads,critical,B,75,beads65.jpg,beads85.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,14,0,experiment,NULL,Canvas,canvas6,Print,NA,1687272202542,PROLIFIC_ID,Olivia Maltz,11,beads,critical,B,75,beads65.jpg,beads85.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,14,0,experiment,NULL,Selector,choice,Selection,option2,1687272204402,PROLIFIC_ID,Olivia Maltz,11,beads,critical,B,75,beads65.jpg,beads85.jpg,low,option2;option1
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,14,0,experiment,NULL,PennController,13,_Trial_,End,1687272204406,PROLIFIC_ID,Olivia Maltz,11,beads,critical,B,75,beads65.jpg,beads85.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,16,0,experiment,NULL,PennController,15,_Trial_,Start,1687272204411,PROLIFIC_ID,Olivia Maltz,13,mix,critical,B,50,mix40.jpg,mix60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,16,0,experiment,NULL,PennController,15,_Header_,Start,1687272204411,PROLIFIC_ID,Olivia Maltz,13,mix,critical,B,50,mix40.jpg,mix60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,16,0,experiment,NULL,PennController,15,_Header_,End,1687272204411,PROLIFIC_ID,Olivia Maltz,13,mix,critical,B,50,mix40.jpg,mix60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,16,0,experiment,NULL,Video,progression,buffer,0,1687272207980,PROLIFIC_ID,Olivia Maltz,13,mix,critical,B,50,mix40.jpg,mix60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,16,0,experiment,NULL,Canvas,canvas6,Print,NA,1687272211225,PROLIFIC_ID,Olivia Maltz,13,mix,critical,B,50,mix40.jpg,mix60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,16,0,experiment,NULL,Selector,choice,Selection,option1,1687272213660,PROLIFIC_ID,Olivia Maltz,13,mix,critical,B,50,mix40.jpg,mix60.jpg,low,option1;option2
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,16,0,experiment,NULL,PennController,15,_Trial_,End,1687272213663,PROLIFIC_ID,Olivia Maltz,13,mix,critical,B,50,mix40.jpg,mix60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,8,0,experiment,NULL,PennController,7,_Trial_,Start,1687272213665,PROLIFIC_ID,Olivia Maltz,5,book,critical,B,75,book65.jpg,book85.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,8,0,experiment,NULL,PennController,7,_Header_,Start,1687272213665,PROLIFIC_ID,Olivia Maltz,5,book,critical,B,75,book65.jpg,book85.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,8,0,experiment,NULL,PennController,7,_Header_,End,1687272213666,PROLIFIC_ID,Olivia Maltz,5,book,critical,B,75,book65.jpg,book85.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,8,0,experiment,NULL,Video,progression,buffer,0,1687272217231,PROLIFIC_ID,Olivia Maltz,5,book,critical,B,75,book65.jpg,book85.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,8,0,experiment,NULL,Canvas,canvas6,Print,NA,1687272221480,PROLIFIC_ID,Olivia Maltz,5,book,critical,B,75,book65.jpg,book85.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,8,0,experiment,NULL,Selector,choice,Selection,option2,1687272224079,PROLIFIC_ID,Olivia Maltz,5,book,critical,B,75,book65.jpg,book85.jpg,low,option1;option2
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,8,0,experiment,NULL,PennController,7,_Trial_,End,1687272224083,PROLIFIC_ID,Olivia Maltz,5,book,critical,B,75,book65.jpg,book85.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,6,0,experiment,NULL,PennController,5,_Trial_,Start,1687272224087,PROLIFIC_ID,Olivia Maltz,3,clean,critical,B,25,clean15.jpg,clean35.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,6,0,experiment,NULL,PennController,5,_Header_,Start,1687272224087,PROLIFIC_ID,Olivia Maltz,3,clean,critical,B,25,clean15.jpg,clean35.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,6,0,experiment,NULL,PennController,5,_Header_,End,1687272224087,PROLIFIC_ID,Olivia Maltz,3,clean,critical,B,25,clean15.jpg,clean35.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,6,0,experiment,NULL,Video,progression,buffer,0,1687272227677,PROLIFIC_ID,Olivia Maltz,3,clean,critical,B,25,clean15.jpg,clean35.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,6,0,experiment,NULL,Canvas,canvas6,Print,NA,1687272229928,PROLIFIC_ID,Olivia Maltz,3,clean,critical,B,25,clean15.jpg,clean35.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,6,0,experiment,NULL,Selector,choice,Selection,option2,1687272234533,PROLIFIC_ID,Olivia Maltz,3,clean,critical,B,25,clean15.jpg,clean35.jpg,low,option1;option2
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,6,0,experiment,NULL,PennController,5,_Trial_,End,1687272234539,PROLIFIC_ID,Olivia Maltz,3,clean,critical,B,25,clean15.jpg,clean35.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,18,0,experiment,NULL,PennController,17,_Trial_,Start,1687272234547,PROLIFIC_ID,Olivia Maltz,15,zip,critical,B,25,zip15.jpg,zip35.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,18,0,experiment,NULL,PennController,17,_Header_,Start,1687272234547,PROLIFIC_ID,Olivia Maltz,15,zip,critical,B,25,zip15.jpg,zip35.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,18,0,experiment,NULL,PennController,17,_Header_,End,1687272234548,PROLIFIC_ID,Olivia Maltz,15,zip,critical,B,25,zip15.jpg,zip35.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,18,0,experiment,NULL,Video,progression,buffer,0,1687272238118,PROLIFIC_ID,Olivia Maltz,15,zip,critical,B,25,zip15.jpg,zip35.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,18,0,experiment,NULL,Canvas,canvas6,Print,NA,1687272240376,PROLIFIC_ID,Olivia Maltz,15,zip,critical,B,25,zip15.jpg,zip35.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,18,0,experiment,NULL,Selector,choice,Selection,option2,1687272242169,PROLIFIC_ID,Olivia Maltz,15,zip,critical,B,25,zip15.jpg,zip35.jpg,low,option2;option1
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,18,0,experiment,NULL,PennController,17,_Trial_,End,1687272242172,PROLIFIC_ID,Olivia Maltz,15,zip,critical,B,25,zip15.jpg,zip35.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,10,0,experiment,NULL,PennController,9,_Trial_,Start,1687272242178,PROLIFIC_ID,Olivia Maltz,7,stack,critical,B,50,stack40.jpg,stack60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,10,0,experiment,NULL,PennController,9,_Header_,Start,1687272242178,PROLIFIC_ID,Olivia Maltz,7,stack,critical,B,50,stack40.jpg,stack60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,10,0,experiment,NULL,PennController,9,_Header_,End,1687272242178,PROLIFIC_ID,Olivia Maltz,7,stack,critical,B,50,stack40.jpg,stack60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,10,0,experiment,NULL,Video,progression,buffer,0,1687272245741,PROLIFIC_ID,Olivia Maltz,7,stack,critical,B,50,stack40.jpg,stack60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,10,0,experiment,NULL,Canvas,canvas6,Print,NA,1687272249003,PROLIFIC_ID,Olivia Maltz,7,stack,critical,B,50,stack40.jpg,stack60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,10,0,experiment,NULL,Selector,choice,Selection,option2,1687272256947,PROLIFIC_ID,Olivia Maltz,7,stack,critical,B,50,stack40.jpg,stack60.jpg,low,option1;option2
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,10,0,experiment,NULL,PennController,9,_Trial_,End,1687272256951,PROLIFIC_ID,Olivia Maltz,7,stack,critical,B,50,stack40.jpg,stack60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,20,0,experiment,NULL,PennController,19,_Trial_,Start,1687272256955,PROLIFIC_ID,Olivia Maltz,17,roll,critical,B,75,roll65.jpg,roll85.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,20,0,experiment,NULL,PennController,19,_Header_,Start,1687272256955,PROLIFIC_ID,Olivia Maltz,17,roll,critical,B,75,roll65.jpg,roll85.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,20,0,experiment,NULL,PennController,19,_Header_,End,1687272256956,PROLIFIC_ID,Olivia Maltz,17,roll,critical,B,75,roll65.jpg,roll85.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,20,0,experiment,NULL,Video,progression,buffer,0,1687272260512,PROLIFIC_ID,Olivia Maltz,17,roll,critical,B,75,roll65.jpg,roll85.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,20,0,experiment,NULL,Canvas,canvas6,Print,NA,1687272264755,PROLIFIC_ID,Olivia Maltz,17,roll,critical,B,75,roll65.jpg,roll85.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,20,0,experiment,NULL,Selector,choice,Selection,option2,1687272267810,PROLIFIC_ID,Olivia Maltz,17,roll,critical,B,75,roll65.jpg,roll85.jpg,low,option1;option2
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,20,0,experiment,NULL,PennController,19,_Trial_,End,1687272267813,PROLIFIC_ID,Olivia Maltz,17,roll,critical,B,75,roll65.jpg,roll85.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,24,0,experiment,NULL,PennController,23,_Trial_,Start,1687272267818,PROLIFIC_ID,Olivia Maltz,21,visit,filler,B,25,visit15.jpg,visit35.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,24,0,experiment,NULL,PennController,23,_Header_,Start,1687272267818,PROLIFIC_ID,Olivia Maltz,21,visit,filler,B,25,visit15.jpg,visit35.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,24,0,experiment,NULL,PennController,23,_Header_,End,1687272267818,PROLIFIC_ID,Olivia Maltz,21,visit,filler,B,25,visit15.jpg,visit35.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,24,0,experiment,NULL,Video,progression,buffer,0,1687272271384,PROLIFIC_ID,Olivia Maltz,21,visit,filler,B,25,visit15.jpg,visit35.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,24,0,experiment,NULL,Canvas,canvas6,Print,NA,1687272273634,PROLIFIC_ID,Olivia Maltz,21,visit,filler,B,25,visit15.jpg,visit35.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,24,0,experiment,NULL,Selector,choice,Selection,option2,1687272275585,PROLIFIC_ID,Olivia Maltz,21,visit,filler,B,25,visit15.jpg,visit35.jpg,GoalA,option1;option2
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,24,0,experiment,NULL,PennController,23,_Trial_,End,1687272275590,PROLIFIC_ID,Olivia Maltz,21,visit,filler,B,25,visit15.jpg,visit35.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,5,0,experiment,NULL,PennController,4,_Trial_,Start,1687272275595,PROLIFIC_ID,Olivia Maltz,2,door,critical,B,75,door65.jpg,door85.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,5,0,experiment,NULL,PennController,4,_Header_,Start,1687272275595,PROLIFIC_ID,Olivia Maltz,2,door,critical,B,75,door65.jpg,door85.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,5,0,experiment,NULL,PennController,4,_Header_,End,1687272275595,PROLIFIC_ID,Olivia Maltz,2,door,critical,B,75,door65.jpg,door85.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,5,0,experiment,NULL,Video,progression,buffer,0,1687272279151,PROLIFIC_ID,Olivia Maltz,2,door,critical,B,75,door65.jpg,door85.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,5,0,experiment,NULL,Canvas,canvas6,Print,NA,1687272283400,PROLIFIC_ID,Olivia Maltz,2,door,critical,B,75,door65.jpg,door85.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,5,0,experiment,NULL,Selector,choice,Selection,option2,1687272285842,PROLIFIC_ID,Olivia Maltz,2,door,critical,B,75,door65.jpg,door85.jpg,low,option1;option2
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,5,0,experiment,NULL,PennController,4,_Trial_,End,1687272285844,PROLIFIC_ID,Olivia Maltz,2,door,critical,B,75,door65.jpg,door85.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,32,0,experiment,NULL,PennController,31,_Trial_,Start,1687272285845,PROLIFIC_ID,Olivia Maltz,29,frog,filler,B,75,frog65.jpg,frog85.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,32,0,experiment,NULL,PennController,31,_Header_,Start,1687272285845,PROLIFIC_ID,Olivia Maltz,29,frog,filler,B,75,frog65.jpg,frog85.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,32,0,experiment,NULL,PennController,31,_Header_,End,1687272285845,PROLIFIC_ID,Olivia Maltz,29,frog,filler,B,75,frog65.jpg,frog85.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,32,0,experiment,NULL,Video,progression,buffer,0,1687272289400,PROLIFIC_ID,Olivia Maltz,29,frog,filler,B,75,frog65.jpg,frog85.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,32,0,experiment,NULL,Canvas,canvas6,Print,NA,1687272293650,PROLIFIC_ID,Olivia Maltz,29,frog,filler,B,75,frog65.jpg,frog85.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,32,0,experiment,NULL,Selector,choice,Selection,option1,1687272296832,PROLIFIC_ID,Olivia Maltz,29,frog,filler,B,75,frog65.jpg,frog85.jpg,GoalA,option2;option1
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,32,0,experiment,NULL,PennController,31,_Trial_,End,1687272296834,PROLIFIC_ID,Olivia Maltz,29,frog,filler,B,75,frog65.jpg,frog85.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,22,0,experiment,NULL,PennController,21,_Trial_,Start,1687272296835,PROLIFIC_ID,Olivia Maltz,19,cup,filler,B,50,cup40.jpg,cup60.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,22,0,experiment,NULL,PennController,21,_Header_,Start,1687272296835,PROLIFIC_ID,Olivia Maltz,19,cup,filler,B,50,cup40.jpg,cup60.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,22,0,experiment,NULL,PennController,21,_Header_,End,1687272296835,PROLIFIC_ID,Olivia Maltz,19,cup,filler,B,50,cup40.jpg,cup60.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,22,0,experiment,NULL,Video,progression,buffer,0,1687272300380,PROLIFIC_ID,Olivia Maltz,19,cup,filler,B,50,cup40.jpg,cup60.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,22,0,experiment,NULL,Canvas,canvas6,Print,NA,1687272303626,PROLIFIC_ID,Olivia Maltz,19,cup,filler,B,50,cup40.jpg,cup60.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,22,0,experiment,NULL,Selector,choice,Selection,option2,1687272305065,PROLIFIC_ID,Olivia Maltz,19,cup,filler,B,50,cup40.jpg,cup60.jpg,GoalA,option1;option2
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,22,0,experiment,NULL,PennController,21,_Trial_,End,1687272305066,PROLIFIC_ID,Olivia Maltz,19,cup,filler,B,50,cup40.jpg,cup60.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,15,0,experiment,NULL,PennController,14,_Trial_,Start,1687272305066,PROLIFIC_ID,Olivia Maltz,12,erase,critical,B,25,erase15.jpg,erase33.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,15,0,experiment,NULL,PennController,14,_Header_,Start,1687272305066,PROLIFIC_ID,Olivia Maltz,12,erase,critical,B,25,erase15.jpg,erase33.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,15,0,experiment,NULL,PennController,14,_Header_,End,1687272305066,PROLIFIC_ID,Olivia Maltz,12,erase,critical,B,25,erase15.jpg,erase33.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,15,0,experiment,NULL,Video,progression,buffer,0,1687272308609,PROLIFIC_ID,Olivia Maltz,12,erase,critical,B,25,erase15.jpg,erase33.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,15,0,experiment,NULL,Canvas,canvas6,Print,NA,1687272311463,PROLIFIC_ID,Olivia Maltz,12,erase,critical,B,25,erase15.jpg,erase33.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,15,0,experiment,NULL,Selector,choice,Selection,option2,1687272314156,PROLIFIC_ID,Olivia Maltz,12,erase,critical,B,25,erase15.jpg,erase33.jpg,low,option2;option1
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,15,0,experiment,NULL,PennController,14,_Trial_,End,1687272314158,PROLIFIC_ID,Olivia Maltz,12,erase,critical,B,25,erase15.jpg,erase33.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,13,0,experiment,NULL,PennController,12,_Trial_,Start,1687272314160,PROLIFIC_ID,Olivia Maltz,10,train,critical,B,50,train40.jpg,train60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,13,0,experiment,NULL,PennController,12,_Header_,Start,1687272314160,PROLIFIC_ID,Olivia Maltz,10,train,critical,B,50,train40.jpg,train60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,13,0,experiment,NULL,PennController,12,_Header_,End,1687272314160,PROLIFIC_ID,Olivia Maltz,10,train,critical,B,50,train40.jpg,train60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,13,0,experiment,NULL,Video,progression,buffer,0,1687272317728,PROLIFIC_ID,Olivia Maltz,10,train,critical,B,50,train40.jpg,train60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,13,0,experiment,NULL,Canvas,canvas6,Print,NA,1687272320988,PROLIFIC_ID,Olivia Maltz,10,train,critical,B,50,train40.jpg,train60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,13,0,experiment,NULL,Selector,choice,Selection,option2,1687272323317,PROLIFIC_ID,Olivia Maltz,10,train,critical,B,50,train40.jpg,train60.jpg,low,option2;option1
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,13,0,experiment,NULL,PennController,12,_Trial_,End,1687272323318,PROLIFIC_ID,Olivia Maltz,10,train,critical,B,50,train40.jpg,train60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,29,0,experiment,NULL,PennController,28,_Trial_,Start,1687272323320,PROLIFIC_ID,Olivia Maltz,26,sandwich,filler,B,75,sandwich65.jpg,sandwich85.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,29,0,experiment,NULL,PennController,28,_Header_,Start,1687272323320,PROLIFIC_ID,Olivia Maltz,26,sandwich,filler,B,75,sandwich65.jpg,sandwich85.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,29,0,experiment,NULL,PennController,28,_Header_,End,1687272323320,PROLIFIC_ID,Olivia Maltz,26,sandwich,filler,B,75,sandwich65.jpg,sandwich85.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,29,0,experiment,NULL,Video,progression,buffer,0,1687272326885,PROLIFIC_ID,Olivia Maltz,26,sandwich,filler,B,75,sandwich65.jpg,sandwich85.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,29,0,experiment,NULL,Canvas,canvas6,Print,NA,1687272331139,PROLIFIC_ID,Olivia Maltz,26,sandwich,filler,B,75,sandwich65.jpg,sandwich85.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,29,0,experiment,NULL,Selector,choice,Selection,option2,1687272332381,PROLIFIC_ID,Olivia Maltz,26,sandwich,filler,B,75,sandwich65.jpg,sandwich85.jpg,GoalB,option1;option2
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,29,0,experiment,NULL,PennController,28,_Trial_,End,1687272332385,PROLIFIC_ID,Olivia Maltz,26,sandwich,filler,B,75,sandwich65.jpg,sandwich85.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,28,0,experiment,NULL,PennController,27,_Trial_,Start,1687272332388,PROLIFIC_ID,Olivia Maltz,25,house,filler,B,50,house40.jpg,house60.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,28,0,experiment,NULL,PennController,27,_Header_,Start,1687272332388,PROLIFIC_ID,Olivia Maltz,25,house,filler,B,50,house40.jpg,house60.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,28,0,experiment,NULL,PennController,27,_Header_,End,1687272332388,PROLIFIC_ID,Olivia Maltz,25,house,filler,B,50,house40.jpg,house60.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,28,0,experiment,NULL,Video,progression,buffer,0,1687272335954,PROLIFIC_ID,Olivia Maltz,25,house,filler,B,50,house40.jpg,house60.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,28,0,experiment,NULL,Canvas,canvas6,Print,NA,1687272339195,PROLIFIC_ID,Olivia Maltz,25,house,filler,B,50,house40.jpg,house60.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,28,0,experiment,NULL,Selector,choice,Selection,option1,1687272342015,PROLIFIC_ID,Olivia Maltz,25,house,filler,B,50,house40.jpg,house60.jpg,GoalA,option2;option1
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,28,0,experiment,NULL,PennController,27,_Trial_,End,1687272342018,PROLIFIC_ID,Olivia Maltz,25,house,filler,B,50,house40.jpg,house60.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,23,0,experiment,NULL,PennController,22,_Trial_,Start,1687272342020,PROLIFIC_ID,Olivia Maltz,20,cat,filler,B,75,cat65.jpg,cat85.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,23,0,experiment,NULL,PennController,22,_Header_,Start,1687272342020,PROLIFIC_ID,Olivia Maltz,20,cat,filler,B,75,cat65.jpg,cat85.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,23,0,experiment,NULL,PennController,22,_Header_,End,1687272342020,PROLIFIC_ID,Olivia Maltz,20,cat,filler,B,75,cat65.jpg,cat85.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,23,0,experiment,NULL,Video,progression,buffer,0,1687272345579,PROLIFIC_ID,Olivia Maltz,20,cat,filler,B,75,cat65.jpg,cat85.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,23,0,experiment,NULL,Canvas,canvas6,Print,NA,1687272349820,PROLIFIC_ID,Olivia Maltz,20,cat,filler,B,75,cat65.jpg,cat85.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,23,0,experiment,NULL,Selector,choice,Selection,option2,1687272352016,PROLIFIC_ID,Olivia Maltz,20,cat,filler,B,75,cat65.jpg,cat85.jpg,GoalB,option2;option1
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,23,0,experiment,NULL,PennController,22,_Trial_,End,1687272352019,PROLIFIC_ID,Olivia Maltz,20,cat,filler,B,75,cat65.jpg,cat85.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,7,0,experiment,NULL,PennController,6,_Trial_,Start,1687272352024,PROLIFIC_ID,Olivia Maltz,4,candy,critical,B,50,candy40.jpg,candy60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,7,0,experiment,NULL,PennController,6,_Header_,Start,1687272352024,PROLIFIC_ID,Olivia Maltz,4,candy,critical,B,50,candy40.jpg,candy60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,7,0,experiment,NULL,PennController,6,_Header_,End,1687272352024,PROLIFIC_ID,Olivia Maltz,4,candy,critical,B,50,candy40.jpg,candy60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,7,0,experiment,NULL,Video,progression,buffer,0,1687272355577,PROLIFIC_ID,Olivia Maltz,4,candy,critical,B,50,candy40.jpg,candy60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,7,0,experiment,NULL,Canvas,canvas6,Print,NA,1687272358830,PROLIFIC_ID,Olivia Maltz,4,candy,critical,B,50,candy40.jpg,candy60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,7,0,experiment,NULL,Selector,choice,Selection,option1,1687272361402,PROLIFIC_ID,Olivia Maltz,4,candy,critical,B,50,candy40.jpg,candy60.jpg,low,option1;option2
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,7,0,experiment,NULL,PennController,6,_Trial_,End,1687272361404,PROLIFIC_ID,Olivia Maltz,4,candy,critical,B,50,candy40.jpg,candy60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,9,0,experiment,NULL,PennController,8,_Trial_,Start,1687272361405,PROLIFIC_ID,Olivia Maltz,6,flower,critical,B,25,flower15.jpg,flower35.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,9,0,experiment,NULL,PennController,8,_Header_,Start,1687272361405,PROLIFIC_ID,Olivia Maltz,6,flower,critical,B,25,flower15.jpg,flower35.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,9,0,experiment,NULL,PennController,8,_Header_,End,1687272361405,PROLIFIC_ID,Olivia Maltz,6,flower,critical,B,25,flower15.jpg,flower35.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,9,0,experiment,NULL,Video,progression,buffer,0,1687272364961,PROLIFIC_ID,Olivia Maltz,6,flower,critical,B,25,flower15.jpg,flower35.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,9,0,experiment,NULL,Canvas,canvas6,Print,NA,1687272367218,PROLIFIC_ID,Olivia Maltz,6,flower,critical,B,25,flower15.jpg,flower35.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,9,0,experiment,NULL,Selector,choice,Selection,option2,1687272370085,PROLIFIC_ID,Olivia Maltz,6,flower,critical,B,25,flower15.jpg,flower35.jpg,low,option2;option1
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,9,0,experiment,NULL,PennController,8,_Trial_,End,1687272370089,PROLIFIC_ID,Olivia Maltz,6,flower,critical,B,25,flower15.jpg,flower35.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,27,0,experiment,NULL,PennController,26,_Trial_,Start,1687272370092,PROLIFIC_ID,Olivia Maltz,24,match,filler,B,25,match15.jpg,match35.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,27,0,experiment,NULL,PennController,26,_Header_,Start,1687272370092,PROLIFIC_ID,Olivia Maltz,24,match,filler,B,25,match15.jpg,match35.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,27,0,experiment,NULL,PennController,26,_Header_,End,1687272370092,PROLIFIC_ID,Olivia Maltz,24,match,filler,B,25,match15.jpg,match35.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,27,0,experiment,NULL,Video,progression,buffer,0,1687272373653,PROLIFIC_ID,Olivia Maltz,24,match,filler,B,25,match15.jpg,match35.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,27,0,experiment,NULL,Canvas,canvas6,Print,NA,1687272375898,PROLIFIC_ID,Olivia Maltz,24,match,filler,B,25,match15.jpg,match35.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,27,0,experiment,NULL,Selector,choice,Selection,option1,1687272378519,PROLIFIC_ID,Olivia Maltz,24,match,filler,B,25,match15.jpg,match35.jpg,GoalB,option1;option2
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,27,0,experiment,NULL,PennController,26,_Trial_,End,1687272378522,PROLIFIC_ID,Olivia Maltz,24,match,filler,B,25,match15.jpg,match35.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,11,0,experiment,NULL,PennController,10,_Trial_,Start,1687272378526,PROLIFIC_ID,Olivia Maltz,8,cucumber,critical,B,75,cucumber66.jpg,cucumber84.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,11,0,experiment,NULL,PennController,10,_Header_,Start,1687272378526,PROLIFIC_ID,Olivia Maltz,8,cucumber,critical,B,75,cucumber66.jpg,cucumber84.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,11,0,experiment,NULL,PennController,10,_Header_,End,1687272378527,PROLIFIC_ID,Olivia Maltz,8,cucumber,critical,B,75,cucumber66.jpg,cucumber84.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,11,0,experiment,NULL,Video,progression,buffer,0,1687272382073,PROLIFIC_ID,Olivia Maltz,8,cucumber,critical,B,75,cucumber66.jpg,cucumber84.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,11,0,experiment,NULL,Canvas,canvas6,Print,NA,1687272388320,PROLIFIC_ID,Olivia Maltz,8,cucumber,critical,B,75,cucumber66.jpg,cucumber84.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,11,0,experiment,NULL,Selector,choice,Selection,option2,1687272391124,PROLIFIC_ID,Olivia Maltz,8,cucumber,critical,B,75,cucumber66.jpg,cucumber84.jpg,low,option2;option1
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,11,0,experiment,NULL,PennController,10,_Trial_,End,1687272391128,PROLIFIC_ID,Olivia Maltz,8,cucumber,critical,B,75,cucumber66.jpg,cucumber84.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,31,0,experiment,NULL,PennController,30,_Trial_,Start,1687272391131,PROLIFIC_ID,Olivia Maltz,28,sort,filler,B,50,sort40.jpg,sort60.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,31,0,experiment,NULL,PennController,30,_Header_,Start,1687272391131,PROLIFIC_ID,Olivia Maltz,28,sort,filler,B,50,sort40.jpg,sort60.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,31,0,experiment,NULL,PennController,30,_Header_,End,1687272391131,PROLIFIC_ID,Olivia Maltz,28,sort,filler,B,50,sort40.jpg,sort60.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,31,0,experiment,NULL,Video,progression,buffer,0,1687272394697,PROLIFIC_ID,Olivia Maltz,28,sort,filler,B,50,sort40.jpg,sort60.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,31,0,experiment,NULL,Canvas,canvas6,Print,NA,1687272397937,PROLIFIC_ID,Olivia Maltz,28,sort,filler,B,50,sort40.jpg,sort60.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,31,0,experiment,NULL,Selector,choice,Selection,option2,1687272400760,PROLIFIC_ID,Olivia Maltz,28,sort,filler,B,50,sort40.jpg,sort60.jpg,GoalB,option2;option1
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,31,0,experiment,NULL,PennController,30,_Trial_,End,1687272400764,PROLIFIC_ID,Olivia Maltz,28,sort,filler,B,50,sort40.jpg,sort60.jpg,GoalB,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,30,0,experiment,NULL,PennController,29,_Trial_,Start,1687272400767,PROLIFIC_ID,Olivia Maltz,27,square,filler,B,25,square15.jpg,square35.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,30,0,experiment,NULL,PennController,29,_Header_,Start,1687272400767,PROLIFIC_ID,Olivia Maltz,27,square,filler,B,25,square15.jpg,square35.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,30,0,experiment,NULL,PennController,29,_Header_,End,1687272400767,PROLIFIC_ID,Olivia Maltz,27,square,filler,B,25,square15.jpg,square35.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,30,0,experiment,NULL,Video,progression,buffer,0,1687272404333,PROLIFIC_ID,Olivia Maltz,27,square,filler,B,25,square15.jpg,square35.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,30,0,experiment,NULL,Canvas,canvas6,Print,NA,1687272406591,PROLIFIC_ID,Olivia Maltz,27,square,filler,B,25,square15.jpg,square35.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,30,0,experiment,NULL,Selector,choice,Selection,option2,1687272408951,PROLIFIC_ID,Olivia Maltz,27,square,filler,B,25,square15.jpg,square35.jpg,GoalA,option1;option2
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,30,0,experiment,NULL,PennController,29,_Trial_,End,1687272408953,PROLIFIC_ID,Olivia Maltz,27,square,filler,B,25,square15.jpg,square35.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,17,0,experiment,NULL,PennController,16,_Trial_,Start,1687272408953,PROLIFIC_ID,Olivia Maltz,14,cover,critical,B,75,cover66.jpg,cover84.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,17,0,experiment,NULL,PennController,16,_Header_,Start,1687272408953,PROLIFIC_ID,Olivia Maltz,14,cover,critical,B,75,cover66.jpg,cover84.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,17,0,experiment,NULL,PennController,16,_Header_,End,1687272408953,PROLIFIC_ID,Olivia Maltz,14,cover,critical,B,75,cover66.jpg,cover84.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,17,0,experiment,NULL,Video,progression,buffer,0,1687272412510,PROLIFIC_ID,Olivia Maltz,14,cover,critical,B,75,cover66.jpg,cover84.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,17,0,experiment,NULL,Canvas,canvas6,Print,NA,1687272418761,PROLIFIC_ID,Olivia Maltz,14,cover,critical,B,75,cover66.jpg,cover84.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,17,0,experiment,NULL,Selector,choice,Selection,option1,1687272421222,PROLIFIC_ID,Olivia Maltz,14,cover,critical,B,75,cover66.jpg,cover84.jpg,low,option1;option2
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,17,0,experiment,NULL,PennController,16,_Trial_,End,1687272421225,PROLIFIC_ID,Olivia Maltz,14,cover,critical,B,75,cover66.jpg,cover84.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,26,0,experiment,NULL,PennController,25,_Trial_,Start,1687272421229,PROLIFIC_ID,Olivia Maltz,23,color,filler,B,75,color65.jpg,color85.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,26,0,experiment,NULL,PennController,25,_Header_,Start,1687272421229,PROLIFIC_ID,Olivia Maltz,23,color,filler,B,75,color65.jpg,color85.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,26,0,experiment,NULL,PennController,25,_Header_,End,1687272421229,PROLIFIC_ID,Olivia Maltz,23,color,filler,B,75,color65.jpg,color85.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,26,0,experiment,NULL,Video,progression,buffer,0,1687272424789,PROLIFIC_ID,Olivia Maltz,23,color,filler,B,75,color65.jpg,color85.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,26,0,experiment,NULL,Canvas,canvas6,Print,NA,1687272429043,PROLIFIC_ID,Olivia Maltz,23,color,filler,B,75,color65.jpg,color85.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,26,0,experiment,NULL,Selector,choice,Selection,option2,1687272431458,PROLIFIC_ID,Olivia Maltz,23,color,filler,B,75,color65.jpg,color85.jpg,GoalA,option1;option2
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,26,0,experiment,NULL,PennController,25,_Trial_,End,1687272431461,PROLIFIC_ID,Olivia Maltz,23,color,filler,B,75,color65.jpg,color85.jpg,GoalA,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,12,0,experiment,NULL,PennController,11,_Trial_,Start,1687272431463,PROLIFIC_ID,Olivia Maltz,9,cake,critical,B,25,cake15.jpg,cake33.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,12,0,experiment,NULL,PennController,11,_Header_,Start,1687272431463,PROLIFIC_ID,Olivia Maltz,9,cake,critical,B,25,cake15.jpg,cake33.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,12,0,experiment,NULL,PennController,11,_Header_,End,1687272431463,PROLIFIC_ID,Olivia Maltz,9,cake,critical,B,25,cake15.jpg,cake33.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,12,0,experiment,NULL,Video,progression,buffer,0,1687272435028,PROLIFIC_ID,Olivia Maltz,9,cake,critical,B,25,cake15.jpg,cake33.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,12,0,experiment,NULL,Canvas,canvas6,Print,NA,1687272437880,PROLIFIC_ID,Olivia Maltz,9,cake,critical,B,25,cake15.jpg,cake33.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,12,0,experiment,NULL,Selector,choice,Selection,option1,1687272440313,PROLIFIC_ID,Olivia Maltz,9,cake,critical,B,25,cake15.jpg,cake33.jpg,low,option1;option2
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,12,0,experiment,NULL,PennController,11,_Trial_,End,1687272440316,PROLIFIC_ID,Olivia Maltz,9,cake,critical,B,25,cake15.jpg,cake33.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,4,0,experiment,NULL,PennController,3,_Trial_,Start,1687272440318,PROLIFIC_ID,Olivia Maltz,1,vase,critical,B,50,vase40.jpg,vase60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,4,0,experiment,NULL,PennController,3,_Header_,Start,1687272440318,PROLIFIC_ID,Olivia Maltz,1,vase,critical,B,50,vase40.jpg,vase60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,4,0,experiment,NULL,PennController,3,_Header_,End,1687272440319,PROLIFIC_ID,Olivia Maltz,1,vase,critical,B,50,vase40.jpg,vase60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,4,0,experiment,NULL,Video,progression,buffer,0,1687272443866,PROLIFIC_ID,Olivia Maltz,1,vase,critical,B,50,vase40.jpg,vase60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,4,0,experiment,NULL,Canvas,canvas6,Print,NA,1687272447111,PROLIFIC_ID,Olivia Maltz,1,vase,critical,B,50,vase40.jpg,vase60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,4,0,experiment,NULL,Selector,choice,Selection,option2,1687272448683,PROLIFIC_ID,Olivia Maltz,1,vase,critical,B,50,vase40.jpg,vase60.jpg,low,option1;option2
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,4,0,experiment,NULL,PennController,3,_Trial_,End,1687272448685,PROLIFIC_ID,Olivia Maltz,1,vase,critical,B,50,vase40.jpg,vase60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,19,0,experiment,NULL,PennController,18,_Trial_,Start,1687272448689,PROLIFIC_ID,Olivia Maltz,16,blinds,critical,B,50,blinds42.jpg,blinds60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,19,0,experiment,NULL,PennController,18,_Header_,Start,1687272448689,PROLIFIC_ID,Olivia Maltz,16,blinds,critical,B,50,blinds42.jpg,blinds60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,19,0,experiment,NULL,PennController,18,_Header_,End,1687272448689,PROLIFIC_ID,Olivia Maltz,16,blinds,critical,B,50,blinds42.jpg,blinds60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,19,0,experiment,NULL,Video,progression,buffer,0,1687272452233,PROLIFIC_ID,Olivia Maltz,16,blinds,critical,B,50,blinds42.jpg,blinds60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,19,0,experiment,NULL,Canvas,canvas6,Print,NA,1687272456872,PROLIFIC_ID,Olivia Maltz,16,blinds,critical,B,50,blinds42.jpg,blinds60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,19,0,experiment,NULL,Selector,choice,Selection,option2,1687272458552,PROLIFIC_ID,Olivia Maltz,16,blinds,critical,B,50,blinds42.jpg,blinds60.jpg,low,option1;option2
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,19,0,experiment,NULL,PennController,18,_Trial_,End,1687272458555,PROLIFIC_ID,Olivia Maltz,16,blinds,critical,B,50,blinds42.jpg,blinds60.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,21,0,experiment,NULL,PennController,20,_Trial_,Start,1687272458557,PROLIFIC_ID,Olivia Maltz,18,ball,critical,B,25,ball15.jpg,ball35.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,21,0,experiment,NULL,PennController,20,_Header_,Start,1687272458557,PROLIFIC_ID,Olivia Maltz,18,ball,critical,B,25,ball15.jpg,ball35.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,21,0,experiment,NULL,PennController,20,_Header_,End,1687272458557,PROLIFIC_ID,Olivia Maltz,18,ball,critical,B,25,ball15.jpg,ball35.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,21,0,experiment,NULL,Video,progression,buffer,0,1687272462125,PROLIFIC_ID,Olivia Maltz,18,ball,critical,B,25,ball15.jpg,ball35.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,21,0,experiment,NULL,Canvas,canvas6,Print,NA,1687272464372,PROLIFIC_ID,Olivia Maltz,18,ball,critical,B,25,ball15.jpg,ball35.jpg,low,NULL
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,21,0,experiment,NULL,Selector,choice,Selection,option1,1687272467144,PROLIFIC_ID,Olivia Maltz,18,ball,critical,B,25,ball15.jpg,ball35.jpg,low,option1;option2
+1687272466,d00302ce5cdcb001113cd608620db7d1,PennController,21,0,experiment,NULL,PennController,20,_Trial_,End,1687272467147,PROLIFIC_ID,Olivia Maltz,18,ball,critical,B,25,ball15.jpg,ball35.jpg,low,NULL

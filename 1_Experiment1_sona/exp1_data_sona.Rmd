@@ -1,0 +1,292 @@
+---
+title: "memory_data"
+output: html_document
+date: "2023-04-30"
+---
+
+```{r setup, include=FALSE}
+
+library(plyr)
+library(tidyverse)
+library(lme4)
+library(dplyr)
+library (tidyr)
+library(lmerTest)
+library(ggplot2)
+```
+
+```{r}
+read.pcibex <- function(filepath, auto.colnames=TRUE, fun.col=function(col,cols){cols[cols==col]<-paste(col,"Ibex",sep=".");return(cols)}) {
+  n.cols <- max(count.fields(filepath,sep=",",quote=NULL),na.rm=TRUE)
+  if (auto.colnames){
+    cols <- c()
+    con <- file(filepath, "r")
+    while ( TRUE ) {
+      line <- readLines(con, n = 1, warn=FALSE)
+      if ( length(line) == 0) {
+        break
+      }
+      m <- regmatches(line,regexec("^# (\\d+)\\. (.+)\\.$",line))[[1]]
+      if (length(m) == 3) {
+        index <- as.numeric(m[2])
+        value <- m[3]
+        if (index < length(cols)){
+          cols <- c()
+        }
+        if (is.function(fun.col)){
+          cols <- fun.col(value,cols)
+        }
+        cols[index] <- value
+        if (index == n.cols){
+          break
+        }
+      }
+    }
+    close(con)
+    return(read.csv(filepath, comment.char="#", header=FALSE, col.names=cols))
+  }
+  else{
+    return(read.csv(filepath, comment.char="#", header=FALSE, col.names=seq(1:n.cols)))
+  }
+}
+
+#files <- list.files("Data", recursive=TRUE, pattern="*.csv")
+nogoal_files <- dir("C:\\Users\\nancy\\Desktop\\Data\\SONA_data\\exp1_no_goals", pattern = "*.csv", full.names = TRUE, recursive = TRUE)
+#files <- paste("Data/", files, sep="")
+
+for(i in 1:length(nogoal_files)){
+  print(length(colnames(read.pcibex(nogoal_files[i]))))
+}
+
+highlow_files <- dir("C:\\Users\\nancy\\Desktop\\Data\\SONA_data\\exp1_highlow", pattern = "*.csv", full.names = TRUE, recursive = TRUE)
+#files <- paste("Data/", files, sep="")
+
+for(i in 1:length(highlow_files)){
+  print(length(colnames(read.pcibex(highlow_files[i]))))
+}
+
+```
+
+
+```{r}
+nogoal_Data <- do.call(rbind, lapply(files, function(x) read.pcibex(x, auto.colnames=FALSE)))
+highlow_Data <- do.call(rbind, lapply(files, function(x) read.pcibex(x, auto.colnames=FALSE)))
+
+Data <- rbind(nogoal_Data, highlow_Data)
+
+summary(Data)
+
+colnames(Data) <- c("Time", "IP", "Controller", "Order", "ElementNum", "Label", "Group", "PennElementType", "PennElementName", "Parameter", "Value", "EventTime", "SonaID", "comments","item_number", "item", "ItemType", "group","prog", "prev_image", "next_image", "goal", "memory_momentum10", "Comments")
+
+```
+
+```{r}
+EventData %>%
+  mutate(
+    
+    goal = factor(goal, levels = c("none", "low ", "high"))
+  )
+```
+
+
+```{r}
+EventData <- Data %>%
+  filter(Label=="experiment" & PennElementType=="Selector" & ItemType=="critical" & group != "FALSE")
+
+head(EventData, 100)
+EventData %>%
+  mutate(
+    Value = case_when(
+      Value == "option1" ~ 0L,
+      Value == "option2" ~ 1L,
+      TRUE ~ as.integer(Value)
+    ),
+    goal = case_when(
+      memory_momentum10 == "memory-nogoals" ~ "none",
+      goal == "low " ~ "low",
+      TRUE ~ goal
+    ),
+    goal = factor(goal, levels = c("none", "low", "high")),
+    prog = factor(prog, levels = c("25", "50", "75"))
+  ) ->
+  EventData
+
+head(EventData, 100)
+
+Exp1NoGoals <- EventData %>%
+  filter(memory_momentum10 == "memory-nogoals")
+
+Exp1Goals <-EventData %>%
+  filter(goal != "none")
+
+Exp1Goals$goal <- factor(Exp1Goals$goal, levels = c("low", "high"))
+
+
+## Filter out no goals
+
+#head(EventData,30)
+
+
+contrasts(Exp1Goals$goal) = cbind( c(-.5, .5))
+contrasts(Exp1Goals$prog) = cbind(c(-.66, .33, .33), c(0,-.5, .5))
+#c(-.66, .33, .33),\\
+
+head(Exp1Goals,20)
+
+#EventData %>%
+#  group_by(goal, prog) %>%
+#  summarize(Choice=mean(Value), n=length(Value), sd = sd(Value))
+```
+
+```{r}
+exp1mod <- glmer(Value ~ goal*prog+(1|IP) + (1|item), Exp1Goals, family = "binomial")
+summary(exp1mod)
+```
+
+```{r}
+subj_spread <- Exp1Goals %>%
+  group_by(IP, goal) %>%
+  summarize(Choice=mean(Value)) %>%
+  spread(goal, Choice) %>%
+  arrange(IP)
+
+subj_mean <- Exp1Goals %>%
+  group_by(IP, goal) %>%
+  summarize(Choice=mean(Value))
+ggplot(subj_mean, aes(Choice, fill = goal)) +
+  geom_density(alpha = .5)
+mod <- lm(Choice ~ goal, subj_mean)
+library(marginaleffects)
+hypotheses(mod, "b1 = .5")
+hypotheses(mod, "b1 + b2 = .5")
+```
+```{r}
+Exp1NoGoals
+
+nogoals_subj <- Exp1NoGoals %>%
+  group_by(IP) %>%
+  summarize(Choice=mean(Value)) %>%
+  arrange(IP)
+
+nogoals_subj
+
+t.test(nogoals_subj$Choice, mu = 0.5, alternative = "two.sided")
+
+```
+
+```{r}
+t.test(subj_spread$low, mu = 0.5, alternative = "two.sided")
+t.test(subj_spread$high, mu = 0.5, alternative = "two.sided")
+```
+
+
+```{r}
+Exp1Goals %>%
+  group_by(IP) %>%
+  summarize(Choice=mean(Value)) %>%
+  arrange(IP)
+```
+
+
+```{r}
+EventData %>%
+  group_by(goal, prog) %>%
+  #summarySE(EventData, measurevar=mean(Value), groupvars=c("goal", "prog")) %>%
+  summarize(Choice=mean(Value), n=length(Value), sd = sd(Value)/sqrt(n)) %>%
+  ggplot(aes(x = goal, fill = prog, y = Choice, ymin=Choice-sd, ymax=Choice+sd)) +
+  geom_bar(stat = "identity", position = "dodge")+
+  geom_errorbar(width=.2, position = position_dodge(0.9)) +
+  expand_limits(y = 1)+
+  ggtitle("Effect of goals on event memory")+
+  xlab("Goal height")+
+  ylab("% of trials with later frames chosen")
+
+
+```
+```{r}
+EventData %>%
+  group_by(goal) %>%
+  summarize(Choice=mean(Value), n=length(Value), sd = sd(Value)/sqrt(n)) %>%
+  ggplot(aes(x = goal, y = Choice, ymin=Choice-sd, ymax=Choice+sd)) +
+  geom_bar(stat = "identity", position = "dodge")+
+  geom_errorbar(width=.2)+
+  expand_limits(y = 1) +
+  ggtitle("Effect of goals on event memory")+
+  xlab("Goal height")+
+  ylab("% of trials with later frames chosen")
+```
+
+```{r}
+mod1 <- glmer(Value ~ goal+, EventData, family = "binomial")
+summary(mod1)
+```
+
+```{r}
+mod2 <- glm(Value ~ height + prog, EventData, family = "binomial")
+summary(mod2)
+```
+
+```{r}
+BinaryEventData <- EventData %>%
+  mutate(
+    goal_present = case_when(
+      height == "none" ~ "False",
+      TRUE ~ "True")
+    )
+
+mod3 <- lm(Value ~ goal_present, BinaryEventData)
+summary(mod3)
+```
+
+
+```{r}
+EventData %>%
+  group_by(goal, item) %>%
+  summarize(Choice=mean(Value), n=length(Value)) %>%
+  ggplot(aes(x = goal, y = Choice)) +
+  geom_bar(stat = "identity", position = "dodge")+
+  expand_limits(y = 1)+ 
+  facet_wrap(~item)+
+  ggtitle("Effect of goals on event memory")+
+  xlab("Goal height")+
+  ylab("% of trials with later frames chosen")
+```
+```{r}
+EventData %>%
+  group_by(goal, item, prog) %>%
+  summarize(Choice=mean(Value), n=length(Value)) %>%
+  ggplot(aes(x = goal,fill = prog, y = Choice)) +
+  geom_bar(stat = "identity", position = "dodge")+
+  expand_limits(y = 1)+ 
+  facet_wrap(~item)+
+  ggtitle("Effect of goals on event memory")+
+  xlab("Goal height")+
+  ylab("% of trials with later frames chosen")
+```
+```{r}
+EventData %>%
+  group_by(goal, item, prog) %>%
+  summarize(Choice=mean(Value), n=length(Value))
+```
+
+
+```{r}
+EventData_no75low <- EventData[!(EventData$height=="low" & EventData$prog==75),]
+head(EventData_no75low)
+```
+```{r}
+EventData_no75low %>%
+  group_by(height, prog) %>%
+  summarize(Choice=mean(Value), n=length(Value), sd = sd(Value)) %>%
+  ggplot(aes(x = height, y = Choice, ymin=Choice-sd, ymax=Choice+sd)) +
+  geom_bar(stat = "identity", position = "dodge")+
+  #geom_errorbar(width=.2, position = position_dodge(0.9)) +
+  ggtitle("Effect of goals on event memory")+
+  xlab("Goal height")+
+  ylab("% of trials with later frames chosen")
+```
+
+```{r}
+
+```
+

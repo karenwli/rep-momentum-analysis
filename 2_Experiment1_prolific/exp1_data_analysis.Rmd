@@ -1,0 +1,234 @@
+---
+title: "memory_data"
+output: html_document
+date: "2023-04-30"
+---
+
+```{r setup, include=FALSE}
+
+library(plyr)
+library(tidyverse)
+library(lme4)
+library(dplyr)
+library (tidyr)
+library(lmerTest)
+library(ggplot2)
+```
+
+```{r}
+read.pcibex <- function(filepath, auto.colnames=TRUE, fun.col=function(col,cols){cols[cols==col]<-paste(col,"Ibex",sep=".");return(cols)}) {
+  n.cols <- max(count.fields(filepath,sep=",",quote=NULL),na.rm=TRUE)
+  if (auto.colnames){
+    cols <- c()
+    con <- file(filepath, "r")
+    while ( TRUE ) {
+      line <- readLines(con, n = 1, warn=FALSE)
+      if ( length(line) == 0) {
+        break
+      }
+      m <- regmatches(line,regexec("^# (\\d+)\\. (.+)\\.$",line))[[1]]
+      if (length(m) == 3) {
+        index <- as.numeric(m[2])
+        value <- m[3]
+        if (index < length(cols)){
+          cols <- c()
+        }
+        if (is.function(fun.col)){
+          cols <- fun.col(value,cols)
+        }
+        cols[index] <- value
+        if (index == n.cols){
+          break
+        }
+      }
+    }
+    close(con)
+    return(read.csv(filepath, comment.char="#", header=FALSE, col.names=cols))
+  }
+  else{
+    return(read.csv(filepath, comment.char="#", header=FALSE, col.names=seq(1:n.cols)))
+  }
+}
+
+#files <- list.files("Data", recursive=TRUE, pattern="*.csv")
+highlow_files <- dir("C:\\Users\\nancy\\Desktop\\Data\\Prolific_data\\Exp1-highlow-data", pattern = "*.csv", full.names = TRUE, recursive = TRUE)
+
+nogoal_files1 <- dir("C:\\Users\\nancy\\Desktop\\Data\\Prolific_data\\Exp1-nogoals-data", pattern = "*.csv", full.names = TRUE, recursive = TRUE)
+
+nogoal_files2 <- dir("C:\\Users\\nancy\\Desktop\\Data\\SONA_data\\exp1_no_goals", pattern = "*.csv", full.names = TRUE, recursive = TRUE)
+
+for(i in 1:length(nogoal_files2)){
+  print(length(colnames(read.pcibex(nogoal_files2[i]))))
+}
+
+```
+
+
+```{r}
+highlow_data <- do.call(rbind, lapply(highlow_files, function(x) read.pcibex(x, auto.colnames=TRUE)))
+
+colnames(highlow_data) <- c("Time", "IP", "Controller", "Order", "ElementNum", "Label", "Null_Group", "PennElementType", "PennElementName", "Parameter", "Value", "EventTime", "ProlificID", "comments","item_number", "item", "ItemType", "group","prog", "prev_image", "next_image", "goal", "Comments")
+
+nogoal_data1 <- do.call(rbind, lapply(nogoal_files1, function(x) read.pcibex(x, auto.colnames=TRUE)))
+
+colnames(nogoal_data1) <- c("Time", "IP", "Controller", "Order", "ElementNum", "Label", "Null_Group", "PennElementType", "PennElementName", "Parameter", "Value", "EventTime", "ProlificID", "comments","item_number", "item", "ItemType", "group","prog", "prev_image", "next_image", "goal", "Comments")
+
+nogoal_data2 <- do.call(rbind, lapply(nogoal_files2, function(x) read.pcibex(x, auto.colnames=TRUE)))
+
+colnames(nogoal_data2) <- c("Time", "IP", "Controller", "Order", "ElementNum", "Label", "Null_Group", "PennElementType", "PennElementName", "Parameter", "Value", "EventTime", "ProlificID", "comments","item_number", "item", "ItemType", "group","prog", "prev_image", "next_image", "goal", "memory_nogoals", "Comments")
+
+highlow_data
+nogoal_data1
+nogoal_data2
+
+```
+```{r}
+nogoal_relabelled1 <- nogoal_data1%>%
+  mutate(
+    group = case_when(
+      group == "A" ~ "G",
+      group == "B" ~ "H",
+      group == "C" ~ "I",
+      TRUE ~ group
+    )
+  )
+
+nogoal_relabelled2 <- nogoal_data2 %>%
+  mutate(
+    group = case_when(
+      group == "A" ~ "G",
+      group == "B" ~ "H",
+      group == "C" ~ "I",
+      group == "D" ~ "G",
+      group == "E" ~ "H",
+      group == FALSE~ "I",
+      TRUE ~ group
+    )
+    ,
+    goal = "nogoal"
+  ) %>%
+  select(-memory_nogoals)
+
+nogoal_relabelled2
+
+group_counts <- table(nogoal_relabelled2$group)
+print(group_counts)
+```
+
+
+
+```{r}
+EventData <- rbind(highlow_data, nogoal_relabelled1, nogoal_relabelled2)
+
+EventData <- EventData %>%
+  filter(Label=="experiment" & PennElementType=="Selector" & ItemType=="critical")
+
+EventData %>%
+  mutate(
+    Value = case_when(
+      Value == "option1" ~ 0L,
+      Value == "option2" ~ 1L,
+      TRUE ~ as.integer(Value)
+    )
+    ,
+    group = case_when(
+      group == FALSE ~ "F",
+      TRUE ~ group
+    )
+    ,
+    goal = case_when(
+      goal == " low" ~ "low",
+      goal == "nogoal" ~ "none"
+      ,
+      TRUE ~ goal
+    ),
+    goal = factor(goal, levels = c("none", "low", "high")),
+    prog = factor(prog, levels = c("25", "50", "75"))
+  ) ->
+  EventData
+
+EventData
+## Filter out no goals
+
+#head(EventData,30)
+
+#contrasts(EventData$goal) = cbind( c(-.5, .5))
+#contrasts(EventData$prog) = cbind(c(-.66, .33, .33), c(0,-.5, .5))
+#c(-.66, .33, .33),\\
+
+group_counts <- table(EventData$group)
+print(group_counts)
+
+height_counts <- table(EventData$goal)
+print(height_counts)
+
+#EventData %>%
+#  group_by(goal, prog) %>%
+#  summarize(Choice=mean(Value), n=length(Value), sd = sd(Value))
+```
+```{r}
+
+EventData %>%
+  group_by(goal, prog) %>%
+  #summarySE(EventData, measurevar=mean(Value), groupvars=c("goal", "prog")) %>%
+  summarize(Choice=mean(Value), n=length(Value), sd = sd(Value)/sqrt(n)) %>%
+  ggplot(aes(x = goal, fill = prog, y = Choice, ymin=Choice-sd, ymax=Choice+sd)) +
+  geom_bar(stat = "identity", position = "dodge")+
+  geom_errorbar(width=.2, position = position_dodge(0.9)) +
+  expand_limits(y = 1)+
+  ggtitle("Effect of goals on event memory")+
+  xlab("Goal height")+
+  ylab("% of trials with later frames chosen")
+```
+
+
+```{r}
+
+EventData %>%
+  group_by(goal) %>%
+  #summarySE(EventData, measurevar=mean(Value), groupvars=c("goal", "prog")) %>%
+  summarize(Choice=mean(Value), n=length(Value), sd = sd(Value)/sqrt(n)) %>%
+  ggplot(aes(x = goal, y = Choice, ymin=Choice-sd, ymax=Choice+sd)) +
+  geom_bar(stat = "identity", position = "dodge")+
+  geom_errorbar(width=.2, position = position_dodge(0.9)) +
+  expand_limits(y = 1)+
+  ggtitle("Effect of goals on event memory")+
+  xlab("Goal height")+
+  ylab("% of trials with later frames chosen")
+
+```
+
+```{r}
+subj_data <- EventData %>%
+  group_by(IP, goal) %>%
+  summarize(Choice=mean(Value)) %>%
+  arrange(IP)
+
+subj_data
+```
+
+```{r}
+low <- subj_data$Choice[subj_data$goal == "low"]
+high <- subj_data$Choice[subj_data$goal == "high"]
+none <- subj_data$Choice[subj_data$goal == "none"]
+```
+
+
+```{r}
+exp1_ttest <- pairwise.t.test(subj_data$Choice, subj_data$goal)
+exp1_ttest
+
+exp1_wtest <- pairwise.wilcox.test(subj_data$Choice, subj_data$goal)
+exp1_wtest
+
+```
+```{r}
+highlow_ttest <- t.test(high, low)
+
+highlow_ttest
+
+t.test(high, mu = 0.5, alternative = "two.sided")
+t.test(low, mu = 0.5, alternative = "two.sided")
+t.test(none, mu = 0.5, alternative = "two.sided")
+```
+

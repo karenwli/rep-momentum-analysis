@@ -1,0 +1,216 @@
+#
+# Results on Thursday June 22 2023 17:03:15 UTC
+# USER AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+# Design number was non-random = 52
+#
+# Columns below this comment are as follows:
+# 1. Results reception time.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Order number of item.
+# 5. Inner element number.
+# 6. Label.
+# 7. Latin Square Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. ProlificID.
+# 14. Comments.
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,2,0,consent,NULL,PennController,0,_Trial_,Start,1687452781525,5d9fa9371da3ac0011d56df4,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,2,0,consent,NULL,PennController,0,_Header_,Start,1687452781525,5d9fa9371da3ac0011d56df4,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,2,0,consent,NULL,PennController,0,_Header_,End,1687452781606,5d9fa9371da3ac0011d56df4,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,2,0,consent,NULL,PennController,0,_Trial_,End,1687452788359,5d9fa9371da3ac0011d56df4,NULL
+# Columns below this comment are as follows:
+# 14. ID.
+# 15. Comments.
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,3,0,intro,NULL,PennController,1,_Trial_,Start,1687452788365,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,3,0,intro,NULL,PennController,1,_Header_,Start,1687452788365,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,3,0,intro,NULL,PennController,1,_Header_,End,1687452788365,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,3,0,intro,NULL,PennController,1,_Trial_,End,1687452802238,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,NULL
+# Columns below this comment are as follows:
+# 15. item_number.
+# 16. item.
+# 17. type.
+# 18. Group.
+# 19. prog.
+# 20. condition.
+# 21. height.
+# 22. exp2trials.
+# 23. Comments.
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,30,0,experiment,NULL,PennController,29,_Trial_,Start,1687452802242,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,27,square,filler,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,30,0,experiment,NULL,PennController,29,_Header_,Start,1687452802242,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,27,square,filler,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,30,0,experiment,NULL,PennController,29,_Header_,End,1687452802242,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,27,square,filler,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,30,0,experiment,NULL,Video,progression,buffer,0.009773,1687452805794,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,27,square,filler,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,30,0,experiment,NULL,VideoScrubber,slider-input,SelectedFrame,25,1687452807992,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,27,square,filler,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,30,0,experiment,NULL,PennController,29,_Trial_,End,1687452827748,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,27,square,filler,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,22,0,experiment,NULL,PennController,21,_Trial_,Start,1687452827755,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,19,cup,filler,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,22,0,experiment,NULL,PennController,21,_Header_,Start,1687452827755,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,19,cup,filler,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,22,0,experiment,NULL,PennController,21,_Header_,End,1687452827755,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,19,cup,filler,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,22,0,experiment,NULL,Video,progression,buffer,0.010074,1687452831319,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,19,cup,filler,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,22,0,experiment,NULL,VideoScrubber,slider-input,SelectedFrame,65,1687452834492,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,19,cup,filler,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,22,0,experiment,NULL,PennController,21,_Trial_,End,1687452841728,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,19,cup,filler,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,16,0,experiment,NULL,PennController,15,_Trial_,Start,1687452841733,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,13,mix,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,16,0,experiment,NULL,PennController,15,_Header_,Start,1687452841733,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,13,mix,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,16,0,experiment,NULL,PennController,15,_Header_,End,1687452841733,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,13,mix,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,16,0,experiment,NULL,Video,progression,buffer,0.006782,1687452846983,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,13,mix,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,16,0,experiment,NULL,VideoScrubber,slider-input,SelectedFrame,5,1687452850996,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,13,mix,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,16,0,experiment,NULL,PennController,15,_Trial_,End,1687452857752,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,13,mix,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,8,0,experiment,NULL,PennController,7,_Trial_,Start,1687452857755,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,5,book,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,8,0,experiment,NULL,PennController,7,_Header_,Start,1687452857755,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,5,book,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,8,0,experiment,NULL,PennController,7,_Header_,End,1687452857755,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,5,book,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,8,0,experiment,NULL,Video,progression,buffer,0.012033,1687452861304,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,5,book,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,8,0,experiment,NULL,VideoScrubber,slider-input,SelectedFrame,85,1687452865467,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,5,book,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,8,0,experiment,NULL,PennController,7,_Trial_,End,1687452866835,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,5,book,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,11,0,experiment,NULL,PennController,10,_Trial_,Start,1687452866840,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,8,cucumber,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,11,0,experiment,NULL,PennController,10,_Header_,Start,1687452866840,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,8,cucumber,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,11,0,experiment,NULL,PennController,10,_Header_,End,1687452866840,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,8,cucumber,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,11,0,experiment,NULL,Video,progression,buffer,0.007227,1687452870376,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,8,cucumber,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,11,0,experiment,NULL,VideoScrubber,slider-input,SelectedFrame,93,1687452876559,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,8,cucumber,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,11,0,experiment,NULL,PennController,10,_Trial_,End,1687452877863,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,8,cucumber,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,7,0,experiment,NULL,PennController,6,_Trial_,Start,1687452877867,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,4,candy,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,7,0,experiment,NULL,PennController,6,_Header_,Start,1687452877867,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,4,candy,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,7,0,experiment,NULL,PennController,6,_Header_,End,1687452877867,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,4,candy,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,7,0,experiment,NULL,Video,progression,buffer,0.013588,1687452881417,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,4,candy,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,7,0,experiment,NULL,VideoScrubber,slider-input,SelectedFrame,45,1687452884991,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,4,candy,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,7,0,experiment,NULL,PennController,6,_Trial_,End,1687452892880,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,4,candy,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,26,0,experiment,NULL,PennController,25,_Trial_,Start,1687452892883,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,23,color,filler,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,26,0,experiment,NULL,PennController,25,_Header_,Start,1687452892883,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,23,color,filler,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,26,0,experiment,NULL,PennController,25,_Header_,End,1687452892883,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,23,color,filler,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,26,0,experiment,NULL,Video,progression,buffer,0.004633,1687452896416,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,23,color,filler,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,26,0,experiment,NULL,VideoScrubber,slider-input,SelectedFrame,80,1687452900589,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,23,color,filler,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,26,0,experiment,NULL,PennController,25,_Trial_,End,1687452902144,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,23,color,filler,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,24,0,experiment,NULL,PennController,23,_Trial_,Start,1687452902147,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,21,visit,filler,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,24,0,experiment,NULL,PennController,23,_Header_,Start,1687452902147,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,21,visit,filler,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,24,0,experiment,NULL,PennController,23,_Header_,End,1687452902147,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,21,visit,filler,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,24,0,experiment,NULL,Video,progression,buffer,0.005544,1687452905685,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,21,visit,filler,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,24,0,experiment,NULL,VideoScrubber,slider-input,SelectedFrame,75,1687452907855,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,21,visit,filler,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,24,0,experiment,NULL,PennController,23,_Trial_,End,1687452909775,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,21,visit,filler,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,9,0,experiment,NULL,PennController,8,_Trial_,Start,1687452909778,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,6,flower,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,9,0,experiment,NULL,PennController,8,_Header_,Start,1687452909778,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,6,flower,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,9,0,experiment,NULL,PennController,8,_Header_,End,1687452909778,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,6,flower,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,9,0,experiment,NULL,Video,progression,buffer,0.006239,1687452914981,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,6,flower,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,9,0,experiment,NULL,VideoScrubber,slider-input,SelectedFrame,90,1687452917991,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,6,flower,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,9,0,experiment,NULL,PennController,8,_Trial_,End,1687452970650,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,6,flower,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,14,0,experiment,NULL,PennController,13,_Trial_,Start,1687452970654,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,11,beads,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,14,0,experiment,NULL,PennController,13,_Header_,Start,1687452970654,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,11,beads,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,14,0,experiment,NULL,PennController,13,_Header_,End,1687452970654,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,11,beads,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,14,0,experiment,NULL,Video,progression,buffer,0.007776,1687452974192,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,11,beads,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,14,0,experiment,NULL,VideoScrubber,slider-input,SelectedFrame,30,1687452978359,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,11,beads,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,14,0,experiment,NULL,PennController,13,_Trial_,End,1687452980136,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,11,beads,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,12,0,experiment,NULL,PennController,11,_Trial_,Start,1687452980139,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,9,cake,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,12,0,experiment,NULL,PennController,11,_Header_,Start,1687452980139,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,9,cake,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,12,0,experiment,NULL,PennController,11,_Header_,End,1687452980139,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,9,cake,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,12,0,experiment,NULL,Video,progression,buffer,0.006512,1687452983677,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,9,cake,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,12,0,experiment,NULL,VideoScrubber,slider-input,SelectedFrame,72,1687452989043,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,9,cake,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,12,0,experiment,NULL,PennController,11,_Trial_,End,1687453011546,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,9,cake,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,20,0,experiment,NULL,PennController,19,_Trial_,Start,1687453011549,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,17,roll,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,20,0,experiment,NULL,PennController,19,_Header_,Start,1687453011549,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,17,roll,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,20,0,experiment,NULL,PennController,19,_Header_,End,1687453011550,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,17,roll,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,20,0,experiment,NULL,Video,progression,buffer,0,1687453015091,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,17,roll,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,20,0,experiment,NULL,VideoScrubber,slider-input,SelectedFrame,70,1687453019379,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,17,roll,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,20,0,experiment,NULL,PennController,19,_Trial_,End,1687453023480,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,17,roll,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,23,0,experiment,NULL,PennController,22,_Trial_,Start,1687453023483,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,20,cat,filler,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,23,0,experiment,NULL,PennController,22,_Header_,Start,1687453023483,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,20,cat,filler,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,23,0,experiment,NULL,PennController,22,_Header_,End,1687453023483,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,20,cat,filler,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,23,0,experiment,NULL,Video,progression,buffer,0.004989,1687453028975,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,20,cat,filler,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,23,0,experiment,NULL,VideoScrubber,slider-input,SelectedFrame,40,1687453033971,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,20,cat,filler,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,23,0,experiment,NULL,PennController,22,_Trial_,End,1687453157492,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,20,cat,filler,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,13,0,experiment,NULL,PennController,12,_Trial_,Start,1687453157495,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,10,train,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,13,0,experiment,NULL,PennController,12,_Header_,Start,1687453157495,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,10,train,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,13,0,experiment,NULL,PennController,12,_Header_,End,1687453157495,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,10,train,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,13,0,experiment,NULL,Video,progression,buffer,0.006991,1687453161028,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,10,train,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,13,0,experiment,NULL,VideoScrubber,slider-input,SelectedFrame,0,1687453164202,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,10,train,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,13,0,experiment,NULL,PennController,12,_Trial_,End,1687453165166,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,10,train,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,10,0,experiment,NULL,PennController,9,_Trial_,Start,1687453165168,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,7,stack,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,10,0,experiment,NULL,PennController,9,_Header_,Start,1687453165168,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,7,stack,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,10,0,experiment,NULL,PennController,9,_Header_,End,1687453165168,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,7,stack,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,10,0,experiment,NULL,Video,progression,buffer,0.007397,1687453169995,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,7,stack,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,10,0,experiment,NULL,VideoScrubber,slider-input,SelectedFrame,75,1687453174016,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,7,stack,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,10,0,experiment,NULL,PennController,9,_Trial_,End,1687453184426,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,7,stack,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,19,0,experiment,NULL,PennController,18,_Trial_,Start,1687453184429,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,16,blinds,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,19,0,experiment,NULL,PennController,18,_Header_,Start,1687453184429,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,16,blinds,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,19,0,experiment,NULL,PennController,18,_Header_,End,1687453184429,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,16,blinds,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,19,0,experiment,NULL,Video,progression,buffer,0.009869,1687453187968,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,16,blinds,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,19,0,experiment,NULL,VideoScrubber,slider-input,SelectedFrame,66,1687453192551,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,16,blinds,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,19,0,experiment,NULL,PennController,18,_Trial_,End,1687453195013,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,16,blinds,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,4,0,experiment,NULL,PennController,3,_Trial_,Start,1687453195015,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,1,vase,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,4,0,experiment,NULL,PennController,3,_Header_,Start,1687453195015,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,1,vase,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,4,0,experiment,NULL,PennController,3,_Header_,End,1687453195015,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,1,vase,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,4,0,experiment,NULL,Video,progression,buffer,0.008981,1687453198550,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,1,vase,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,4,0,experiment,NULL,VideoScrubber,slider-input,SelectedFrame,70,1687453201722,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,1,vase,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,4,0,experiment,NULL,PennController,3,_Trial_,End,1687453204660,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,1,vase,critical,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,32,0,experiment,NULL,PennController,31,_Trial_,Start,1687453204663,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,29,frog,filler,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,32,0,experiment,NULL,PennController,31,_Header_,Start,1687453204663,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,29,frog,filler,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,32,0,experiment,NULL,PennController,31,_Header_,End,1687453204663,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,29,frog,filler,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,32,0,experiment,NULL,Video,progression,buffer,0.006146,1687453208206,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,29,frog,filler,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,32,0,experiment,NULL,VideoScrubber,slider-input,SelectedFrame,25,1687453212379,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,29,frog,filler,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,32,0,experiment,NULL,PennController,31,_Trial_,End,1687453216357,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,29,frog,filler,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,17,0,experiment,NULL,PennController,16,_Trial_,Start,1687453216360,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,14,cover,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,17,0,experiment,NULL,PennController,16,_Header_,Start,1687453216360,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,14,cover,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,17,0,experiment,NULL,PennController,16,_Header_,End,1687453216360,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,14,cover,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,17,0,experiment,NULL,Video,progression,buffer,0.010212,1687453219902,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,14,cover,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,17,0,experiment,NULL,VideoScrubber,slider-input,SelectedFrame,66,1687453226073,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,14,cover,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,17,0,experiment,NULL,PennController,16,_Trial_,End,1687453229629,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,14,cover,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,25,0,experiment,NULL,PennController,24,_Trial_,Start,1687453229632,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,22,wall,filler,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,25,0,experiment,NULL,PennController,24,_Header_,Start,1687453229632,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,22,wall,filler,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,25,0,experiment,NULL,PennController,24,_Header_,End,1687453229632,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,22,wall,filler,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,25,0,experiment,NULL,Video,progression,buffer,0.004686,1687453233984,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,22,wall,filler,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,25,0,experiment,NULL,VideoScrubber,slider-input,SelectedFrame,15,1687453237973,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,22,wall,filler,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,25,0,experiment,NULL,PennController,24,_Trial_,End,1687453270164,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,22,wall,filler,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,15,0,experiment,NULL,PennController,14,_Trial_,Start,1687453270167,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,12,erase,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,15,0,experiment,NULL,PennController,14,_Header_,Start,1687453270167,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,12,erase,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,15,0,experiment,NULL,PennController,14,_Header_,End,1687453270167,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,12,erase,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,15,0,experiment,NULL,Video,progression,buffer,0.011978,1687453273710,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,12,erase,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,15,0,experiment,NULL,Video,progression,buffer,0,1687453305857,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,12,erase,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,15,0,experiment,NULL,VideoScrubber,slider-input,SelectedFrame,81,1687453302585,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,12,erase,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,15,0,experiment,NULL,PennController,14,_Trial_,End,1687453308315,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,12,erase,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,31,0,experiment,NULL,PennController,30,_Trial_,Start,1687453308321,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,28,sort,filler,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,31,0,experiment,NULL,PennController,30,_Header_,Start,1687453308321,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,28,sort,filler,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,31,0,experiment,NULL,PennController,30,_Header_,End,1687453308321,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,28,sort,filler,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,31,0,experiment,NULL,Video,progression,buffer,0.009328,1687453311856,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,28,sort,filler,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,31,0,experiment,NULL,VideoScrubber,slider-input,SelectedFrame,90,1687453315026,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,28,sort,filler,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,31,0,experiment,NULL,PennController,30,_Trial_,End,1687453316348,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,28,sort,filler,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,21,0,experiment,NULL,PennController,20,_Trial_,Start,1687453316350,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,18,ball,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,21,0,experiment,NULL,PennController,20,_Header_,Start,1687453316350,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,18,ball,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,21,0,experiment,NULL,PennController,20,_Header_,End,1687453316350,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,18,ball,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,21,0,experiment,NULL,Video,progression,buffer,0.007253,1687453319885,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,18,ball,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,21,0,experiment,NULL,VideoScrubber,slider-input,SelectedFrame,65,1687453322067,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,18,ball,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,21,0,experiment,NULL,PennController,20,_Trial_,End,1687453322843,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,18,ball,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,5,0,experiment,NULL,PennController,4,_Trial_,Start,1687453322845,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,2,door,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,5,0,experiment,NULL,PennController,4,_Header_,Start,1687453322845,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,2,door,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,5,0,experiment,NULL,PennController,4,_Header_,End,1687453322845,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,2,door,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,5,0,experiment,NULL,Video,progression,buffer,0,1687453327983,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,2,door,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,5,0,experiment,NULL,VideoScrubber,slider-input,SelectedFrame,20,1687453344036,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,2,door,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,5,0,experiment,NULL,PennController,4,_Trial_,End,1687453344988,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,2,door,critical,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,29,0,experiment,NULL,PennController,28,_Trial_,Start,1687453344990,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,26,sandwich,filler,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,29,0,experiment,NULL,PennController,28,_Header_,Start,1687453344990,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,26,sandwich,filler,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,29,0,experiment,NULL,PennController,28,_Header_,End,1687453344991,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,26,sandwich,filler,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,29,0,experiment,NULL,Video,progression,buffer,0.00656,1687453348523,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,26,sandwich,filler,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,29,0,experiment,NULL,VideoScrubber,slider-input,SelectedFrame,85,1687453352704,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,26,sandwich,filler,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,29,0,experiment,NULL,PennController,28,_Trial_,End,1687453358081,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,26,sandwich,filler,H,75,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,27,0,experiment,NULL,PennController,26,_Trial_,Start,1687453358084,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,24,match,filler,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,27,0,experiment,NULL,PennController,26,_Header_,Start,1687453358084,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,24,match,filler,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,27,0,experiment,NULL,PennController,26,_Header_,End,1687453358084,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,24,match,filler,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,27,0,experiment,NULL,Video,progression,buffer,0.007204,1687453361624,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,24,match,filler,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,27,0,experiment,NULL,VideoScrubber,slider-input,SelectedFrame,30,1687453363800,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,24,match,filler,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,27,0,experiment,NULL,PennController,26,_Trial_,End,1687453366745,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,24,match,filler,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,6,0,experiment,NULL,PennController,5,_Trial_,Start,1687453366748,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,3,clean,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,6,0,experiment,NULL,PennController,5,_Header_,Start,1687453366748,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,3,clean,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,6,0,experiment,NULL,PennController,5,_Header_,End,1687453366748,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,3,clean,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,6,0,experiment,NULL,Video,progression,buffer,0.008254,1687453370290,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,3,clean,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,6,0,experiment,NULL,VideoScrubber,slider-input,SelectedFrame,99,1687453372471,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,3,clean,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,6,0,experiment,NULL,PennController,5,_Trial_,End,1687453377507,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,3,clean,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,28,0,experiment,NULL,PennController,27,_Trial_,Start,1687453377512,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,25,house,filler,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,28,0,experiment,NULL,PennController,27,_Header_,Start,1687453377512,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,25,house,filler,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,28,0,experiment,NULL,PennController,27,_Header_,End,1687453377512,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,25,house,filler,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,28,0,experiment,NULL,Video,progression,buffer,0.009462,1687453381053,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,25,house,filler,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,28,0,experiment,NULL,VideoScrubber,slider-input,SelectedFrame,40,1687453384218,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,25,house,filler,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,28,0,experiment,NULL,PennController,27,_Trial_,End,1687453386377,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,25,house,filler,H,50,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,18,0,experiment,NULL,PennController,17,_Trial_,Start,1687453386380,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,15,zip,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,18,0,experiment,NULL,PennController,17,_Header_,Start,1687453386380,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,15,zip,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,18,0,experiment,NULL,PennController,17,_Header_,End,1687453386380,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,15,zip,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,18,0,experiment,NULL,Video,progression,buffer,0.007699,1687453389918,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,15,zip,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,18,0,experiment,NULL,VideoScrubber,slider-input,SelectedFrame,15,1687453392088,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,15,zip,critical,H,25,nogoal,none,exp2trials,NULL
+1687453395,9601aa1da3d9cdd909551adda020191f,PennController,18,0,experiment,NULL,PennController,17,_Trial_,End,1687453392402,5d9fa9371da3ac0011d56df4,5d9fa9371da3ac0011d56df4,15,zip,critical,H,25,nogoal,none,exp2trials,NULL

@@ -12,7 +12,9 @@ Comprehensive overview of work on the memory momentum project
 -	Stimuli- A list of stimuli, the original images and videos, and a python script to resize the images and make them into videos.
 
 ### State of the project:
-	There is a proven effect, representational momentum, that even without linguistic input, people will mentally progress an telic event past the cutoff point that they have actually seen. This project attempts to study the effect of linguistic input (in the form of goals) on how a person stores events in their memory. Will a more ambitious goal push their memory state further towards completion, or will a more conservative goal further encourage mental completion of the event?
+
+There is a proven effect, representational momentum, that even without linguistic input, people will mentally progress an telic event past the cutoff point that they have actually seen. This project attempts to study the effect of linguistic input (in the form of goals) on how a person stores events in their memory. Will a more ambitious goal push their memory state further towards completion, or will a more conservative goal further encourage mental completion of the event?
+
 So far, we’ve run a norming study and two experiments, the first of which is a forced choice between two incorrect options, and shows forward momentum in the condition of no goals and low goals, but no significant momentum in the condition of high goals. Experiment 2 offers the correct frame (as well as all other frames), and shows that people have no pattern of forward error when shown no goal and offered the correct choice. There is a greater pattern of forward error when shown a goal (high or low), but as of right now the results are not significant. As it stands, Experiments 1 and 2 are in slight conflict, since Experiment 1 indicates a baseline level of forward error, and Experiment 2 does not. 
 
 ### Moving forward:
@@ -26,7 +28,9 @@ Moving forward, there are a few directions. First is to clear up the contradicti
 
 #### Troubleshooting Experiments 1 and 2:
 Option 1: The results are accurate, and there is some way to reconcile these two experiments under one theory
+
 Option 2: Error has been introduced through the stimuli by use of inconsistent event types, goal calibrations, or something similar
+
 Option 3: Error has been introduced through the experimental design-- participants were not required to move the randomized slider before continuing, so this might reflect some of those unaltered responses. (Note: randomized slider was to reduce bias towards beginning of event) Retroactively eliminating this data would likely involve filtering reaction times based on the last item logged in PCIbex. Preventing this in the future would require editing the video_scrubber element in PCIbex to prevent a participant from continuing if they have not moved the slider (I would ask June how to do that)
 
 #### Variations upon the original experiment:
